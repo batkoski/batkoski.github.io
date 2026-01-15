@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Hi, I'm Elijah Batkoski
-    text: I'm an experienced technical writer, product manager, and customer advocate with over 10 years in the tech industry. Currently working as a Senior UX Writer at AWS, I specialize in creating clear, user-focused documentation and advocating for customer experience in product design. My background spans from software engineering at IBM to technical writing and product management at Microsoft and AWS. I'm passionate about technology, gaming, DevOps, and making data-driven decisions that improve products for every user.
+    text: Results-driven Technical Writer and UX professional with 7+ years driving product quality for AI-powered developer tools at AWS and Microsoft. Expert in content strategy, information architecture, and cross-functional collaboration with engineering, product management, and support teams. Successfully led documentation for multiple product launches, managed teams of 6+ writers, and leveraged AI/ML tools to organize 1,500+ customer tickets and create innovative solutions that deliver immediate value to technical users.
     button: View My Work
     buttonlink: "#portfolio"
     image: assets/img/elijah_headshot.png
@@ -27,15 +27,15 @@ en: &DEFAULT_EN
     text: "What I bring to the table"
     section: services
     list:
-      - title: "Technical Writing"
-        desc: "Expert in creating and maintaining comprehensive technical documentation, API references, and user guides for complex software products."
-        icon: fas fa-file-alt
-      - title: "Product Management"
-        desc: "Experienced in prioritizing backlogs, conducting customer outreach, and creating feature specifications with data-driven decision making."
-        icon: fas fa-tasks
-      - title: "Customer Advocacy"
-        desc: "Strong advocate for customer experience during product design, UX reviews, and feature development with focus on usability."
-        icon: fas fa-users
+      - title: "Content Strategy & UX Writing"
+        desc: "Expert in content strategy, information architecture, and UX writing with proficiency in Figma for design collaboration and user-centered content creation."
+        icon: fas fa-pen-fancy
+      - title: "AI/ML Tools & Automation"
+        desc: "Experienced with AI/ML tools including Bedrock, custom AI agents, and generative AI for content creation and automation of complex workflows."
+        icon: fas fa-robot
+      - title: "Technical Foundation"
+        desc: "Strong technical foundation in git, Markdown, XML, JSON, Python, and JavaScript with expertise in agile methodologies and data-driven decision making."
+        icon: fas fa-code
 
   portfolio:
     title: "Projects"
@@ -51,16 +51,37 @@ en: &DEFAULT_EN
     events:
       - title: "Senior UX Writer"
         year: "July 2025 - Present"
-        desc: "Amazon Web Services - Leading UX writing initiatives for AWS Developer Tools, focusing on creating intuitive and user-friendly content experiences."
+        desc: "Amazon Web Services - Created comprehensive copy guidance for Quick Suite product launch, participated in 50+ Fit and Finish reviews, and designed 'UX Copy Writing Assistant' custom AI agent enabling teams to generate publish-ready copy in seconds."
         image: assets/img/timeline/1.jpg
         icon: fas fa-pen-fancy
         alt:
         align: left
-      - title: "Senior Technical Writer & Documentation Manager"
-        year: "2021-2025"
-        desc: "Amazon Web Services - Developed and maintained technical documentation for AWS Developer Tools (CodeArtifact and CodeDeploy), including 50+ API operations and 700+ user guide topics. Advocated for customers during product design discussions and UX reviews."
+      - title: "Senior Technical Writer"
+        year: "July 2023 - July 2025"
+        desc: "Amazon Web Services - Led team of 6 writers creating documentation for Quick Suite, leveraged Bedrock to organize 1,500+ QuickSight customer tickets, and orchestrated documentation for 10+ CodeCatalyst feature launches at AWS re:Invent."
         image: assets/img/timeline/2.jpg
         icon: fas fa-file-alt
+        alt:
+        align: left
+      - title: "Senior Documentation Manager"
+        year: "May 2022 - July 2023"
+        desc: "Amazon Web Services - Managed team of 6 technical writers supporting CodeCatalyst documentation, led agile development processes, and drove documentation strategy for CodeCatalyst GA release in April 2023."
+        image: assets/img/timeline/3.jpg
+        icon: fas fa-users-cog
+        alt:
+        align: left
+      - title: "Senior Technical Writer"
+        year: "October 2021 - May 2022"
+        desc: "Amazon Web Services - Established documentation patterns and content architecture for CodeCatalyst prior to December 2022 public preview, creating foundational standards for new integrated DevOps service."
+        image: assets/img/timeline/4.jpg
+        icon: fas fa-file-alt
+        alt:
+        align: left
+      - title: "Technical Writer"
+        year: "November 2019 - September 2021"
+        desc: "Amazon Web Services - Developed and maintained technical documentation for Developer Tools (CodeArtifact and CodeDeploy), including 50+ API operations and 700 user guide topics."
+        image: assets/img/timeline/4.jpg
+        icon: fas fa-file-code
         alt:
         align: left
       - title: "Program Manager II & Content Developer II"
@@ -72,7 +93,7 @@ en: &DEFAULT_EN
         align: left
       - title: "Software Engineer"
         year: "2014-2016"
-        desc: "IBM - Designed and developed unit tests for WebSphere Application Server. Worked in an agile environment with Eclipse RTC and Git, and delivered support presentations to users."
+        desc: "IBM - Designed and developed unit tests for WebSphere Application Server's intelligent management and dynamic routing functionality. Worked with Eclipse RTC and Git in an agile environment."
         image: assets/img/timeline/4.jpg
         icon: fas fa-code
         alt:

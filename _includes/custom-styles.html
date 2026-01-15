@@ -35,4 +35,13 @@ h4, h5, h6, .subheading {
 p, div, span, li {
   font-weight: 400 !important;
 }
+
+/* Hide timeline line after last item */
+.timeline > li:last-child::after {
+  display: none !important;
+}
+
+.timeline > li:last-child::before {
+  display: none !important;
+}
 </style>

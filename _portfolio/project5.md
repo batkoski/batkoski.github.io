@@ -1,27 +1,28 @@
 ---
-title: WebSphere Application Server Testing
-subtitle: Unit test development and automation
+title: AI-Powered Feature Design Initiative
+subtitle: Proactive personalized suggestions system
 image: assets/img/portfolio/05-full.jpg
-alt: WebSphere Testing
-icon: fas fa-code
+alt: AI Feature Design
+icon: fas fa-lightbulb
 
 caption:
-  title: WebSphere Testing
-  subtitle: Software Engineering
+  title: AI Feature Design
+  subtitle: Product Innovation
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 ---
-Designed and developed comprehensive unit tests for IBM's WebSphere Application Server. Worked in an agile environment using Eclipse RTC and Git for source control and continuous build management.
+Initiated new AI-powered feature design that proactively proposes personalized suggestions based on user data, peer behavior patterns, and product usage analytics. This innovative approach enhances user experience through intelligent automation.
 
 **Key Contributions:**
-- Designed and implemented unit tests for enterprise application server
-- Worked with Eclipse RTC and Git source control systems
-- Developed in an agile environment with continuous integration
-- Delivered support and education presentations to WebSphere users
-- Helped develop command-line utility to automate internal Jenkins builds
+- Designed AI-powered personalization system
+- Leveraged user data and behavior patterns
+- Created proactive suggestion algorithms
+- Enhanced user experience through intelligent automation
+- Collaborated with engineering teams on implementation
+- Focused on data-driven personalization
 
 {:.list-inline}
-- Date: 2014-2016
-- Company: IBM
-- Category: Software Engineering
-- Technologies: Java, Eclipse RTC, Git, Jenkins
+- Date: 2025
+- Company: Amazon Web Services
+- Category: AI/UX Innovation
+- Focus: Personalized User Experience
 

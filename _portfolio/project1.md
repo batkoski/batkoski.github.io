@@ -1,26 +1,27 @@
 ---
-title: AWS CodeArtifact Documentation
-subtitle: Comprehensive API and user guide documentation
+title: UX Copy Writing Assistant AI Agent
+subtitle: Custom AI agent for generating publish-ready copy
 image: assets/img/portfolio/01-full.jpg
-alt: AWS CodeArtifact Documentation
-icon: fas fa-file-alt
+alt: UX Copy Writing Assistant
+icon: fas fa-robot
 
 caption:
-  title: AWS CodeArtifact Docs
-  subtitle: Technical Writing
+  title: AI Copy Assistant
+  subtitle: AI/ML Innovation
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
-Developed and maintained comprehensive technical documentation for AWS CodeArtifact, a fully managed artifact repository service. Created detailed API reference documentation for 50+ operations and data types, along with 700+ user guide topics covering setup, configuration, and best practices.
+Designed and deployed a custom AI agent that enables designers and product teams to generate publish-ready copy in seconds from design screenshots. This innovative solution streamlines the content creation process and ensures consistency across AWS Quick Suite products.
 
 **Key Achievements:**
-- Maintained documentation for a critical AWS Developer Tools service
-- Collaborated with product teams during design and UX reviews
-- Advocated for customer experience throughout the documentation lifecycle
-- Ensured consistency and accuracy across all technical content
+- Built custom AI agent using AWS Bedrock
+- Automated copy generation from design screenshots
+- Enabled instant publish-ready content creation
+- Reduced content creation time from hours to seconds
+- Improved consistency across product teams
 
 {:.list-inline}
-- Date: 2019-Present
-- Technologies: AWS, Markdown, Git
-- Category: Technical Writing
-- Link: [AWS CodeArtifact Docs](https://docs.aws.amazon.com/codeartifact/)
+- Date: 2025
+- Technologies: AWS Bedrock, AI/ML, Custom Agents
+- Category: AI Innovation
+- Company: Amazon Web Services
 

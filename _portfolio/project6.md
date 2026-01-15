@@ -1,27 +1,28 @@
 ---
-title: Customer Advocacy & UX
-subtitle: Championing user experience in product development
+title: Fit and Finish UX Reviews
+subtitle: Enhanced product clarity and user experience
 image: assets/img/portfolio/06-full.jpg
-alt: Customer Advocacy
-icon: fas fa-users
+alt: UX Reviews
+icon: fas fa-search
 
 caption:
-  title: Customer Advocacy
-  subtitle: UX & Product Design
+  title: UX Reviews
+  subtitle: User Experience Design
   thumbnail: assets/img/portfolio/06-thumbnail.jpg
 ---
-Throughout my career at AWS and Microsoft, I've been a strong advocate for customer experience during product design discussions, UX reviews, and feature planning. This work ensures that products are built with the end user in mind.
+Participated in 50+ Fit and Finish reviews, providing UX design and copy feedback to enhance product clarity, consistency, and reduce cognitive load for users. Established consistent voice, tone, and terminology across AWS Quick Suite platform.
 
-**Key Activities:**
-- Participated in product design discussions to represent customer needs
-- Conducted UX reviews to ensure intuitive user experiences
-- Gathered and synthesized customer feedback for product improvements
-- Collaborated with design teams on user-centered solutions
-- Used analytics and customer data to drive decision-making
+**Key Achievements:**
+- Participated in 50+ Fit and Finish reviews
+- Enhanced product clarity and consistency
+- Reduced cognitive load for users
+- Established consistent voice and tone guidelines
+- Provided UX design and copy feedback
+- Based improvements on user and leadership survey results
 
 {:.list-inline}
-- Date: 2016-Present
-- Focus: Customer Experience & UX
-- Category: Product Development
-- Impact: Improved usability across multiple products
+- Date: 2025
+- Company: Amazon Web Services
+- Category: UX Design & Review
+- Impact: 50+ product reviews
 

@@ -1,27 +1,28 @@
 ---
-title: AWS CodeDeploy Documentation
-subtitle: Deployment automation documentation and guides
+title: AWS App Studio Documentation
+subtitle: AI-assisted application creation platform documentation
 image: assets/img/portfolio/04-full.jpg
-alt: AWS CodeDeploy Documentation
-icon: fas fa-rocket
+alt: App Studio Documentation
+icon: fas fa-magic
 
 caption:
-  title: AWS CodeDeploy Docs
-  subtitle: Technical Writing
+  title: App Studio Docs
+  subtitle: AI Platform Documentation
   thumbnail: assets/img/portfolio/04-thumbnail.jpg
 ---
-Developed comprehensive documentation for AWS CodeDeploy, covering deployment automation, configuration management, and best practices. Created user guides that help customers successfully deploy applications to various compute platforms.
+Served as sole technical writer for AWS App Studio, architecting comprehensive documentation for a highly complex, AI-assisted application creation platform. Partnered with PM and engineering teams to deliver impactful product suggestions and UX designs in Figma.
 
-**Key Contributions:**
-- Documented deployment strategies and configuration options
-- Created troubleshooting guides and best practices
-- Collaborated with product teams on feature launches
-- Maintained documentation accuracy across service updates
-- Advocated for customer needs during product design
+**Key Achievements:**
+- Sole technical writer for complex AI-assisted platform
+- Architected comprehensive documentation strategy
+- Collaborated on UX designs using Figma
+- Delivered impactful product suggestions to engineering teams
+- Created documentation for AI-powered application creation workflows
+- Supported platform launch and user adoption
 
 {:.list-inline}
-- Date: 2019-Present
+- Date: 2023-2025
 - Company: Amazon Web Services
-- Category: Technical Writing
-- Link: [AWS CodeDeploy Docs](https://docs.aws.amazon.com/codedeploy/)
+- Category: AI Platform Documentation
+- Role: Sole Technical Writer
 
