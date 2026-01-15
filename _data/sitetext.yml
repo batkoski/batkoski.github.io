@@ -1,0 +1,298 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Hi, I'm Elijah Batkoski
+    text: Technical Writer | Product Manager | Customer Advocate
+    button: View My Work
+    buttonlink: "#portfolio"
+
+  services:
+    title: "Skills"
+    text: "What I bring to the table"
+    section: services
+    list:
+      - title: "Technical Writing"
+        desc: "Expert in creating and maintaining comprehensive technical documentation, API references, and user guides for complex software products."
+        icon: fas fa-file-alt
+      - title: "Product Management"
+        desc: "Experienced in prioritizing backlogs, conducting customer outreach, and creating feature specifications with data-driven decision making."
+        icon: fas fa-tasks
+      - title: "Customer Advocacy"
+        desc: "Strong advocate for customer experience during product design, UX reviews, and feature development with focus on usability."
+        icon: fas fa-users
+
+  portfolio:
+    title: "Projects"
+    text: "Check out some of my recent work"
+    section: portfolio
+    closebutton: "Close Project"
+
+  timeline:
+    title: "Experience"
+    text: "My professional journey"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Senior UX Writer"
+        year: "July 2025 - Present"
+        desc: "Amazon Web Services - Leading UX writing initiatives for AWS Developer Tools, focusing on creating intuitive and user-friendly content experiences."
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Senior Technical Writer & Documentation Manager"
+        year: "2021-2025"
+        desc: "Amazon Web Services - Developed and maintained technical documentation for AWS Developer Tools (CodeArtifact and CodeDeploy), including 50+ API operations and 700+ user guide topics. Advocated for customers during product design discussions and UX reviews."
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Program Manager II & Content Developer II"
+        year: "2016-2019"
+        desc: "Microsoft - Managed product development backlog for 15+ developers, conducted customer outreach, and maintained 100+ articles for Azure DevOps. Created SEO plans and delivered monthly content performance reports to leadership."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Software Engineer"
+        year: "2014-2016"
+        desc: "IBM - Designed and developed unit tests for WebSphere Application Server. Worked in an agile environment with Eclipse RTC and Git, and delivered support presentations to users."
+        image: assets/img/timeline/4.jpg
+        alt:
+      - title: "Bachelor of Science in Computer Science"
+        year: "2014"
+        desc: "University of North Carolina at Chapel Hill - Graduated with a strong foundation in computer science, algorithms, and software engineering."
+        image: assets/img/timeline/4.jpg
+        alt:
+        align: right
+    end: "Let's Build <br> Something <br> Together!"
+
+  about:
+    title: "About Me"
+    text: "who I am"
+    body: "I'm an experienced technical writer, product manager, and customer advocate with over 10 years in the tech industry. Currently working as a Senior UX Writer at AWS, I specialize in creating clear, user-focused documentation and advocating for customer experience in product design. My background spans from software engineering at IBM to technical writing and product management at Microsoft and AWS. I'm passionate about technology, gaming, DevOps, and making data-driven decisions that improve products for every user."
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "Git"
+        url: https://git-scm.com
+        logo: assets/img/clients/envato.jpg
+      - title: "Markdown"
+        url: https://www.markdownguide.org
+        logo: assets/img/clients/designmodo.jpg
+      - title: "Python"
+        url: https://www.python.org
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Java"
+        url: https://www.java.com
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "Let's Connect"
+    text: "Find me on these platforms"
+    subtext: I'm always interested in hearing about new opportunities and collaborations in technical writing, product management, and customer advocacy. Feel free to reach out!
+    section: team
+    people:
+      - name: "Elijah Batkoski"
+        role: "Senior UX Writer at AWS"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://linkedin.com/in/elijah-batkoski-54255559
+            icon: fab fa-linkedin-in
+          - url: mailto:ebatkoski@gmail.com
+            icon: fas fa-envelope
+
+  contact:
+    title: "Get In Touch"
+    text: "Let's discuss your next project"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://linkedin.com/in/elijah-batkoski-54255559
+        icon: "fab fa-linkedin-in"
+      - url: mailto:ebatkoski@gmail.com
+        icon: "fas fa-envelope"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  header:
+    title: ¡Bienvenido a nuestro Estudio!
+    text: Es un placer conocerle
+    button: Ver más
+    buttonlink: "#servicios"
+
+  services:
+    title: "Servicios"
+    text: "Lorem ipsum"
+    section: servicios
+    list:
+      - title: "Comercio Electrónico"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Diseño Responsivo"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Su descripción aquí, soporte completo de **Markdown**"
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portafolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portafolio
+    closebutton: "Cerrar Proyecto"
+
+  timeline:
+    title: "Cronología"
+    text: "Lorem ipsum timeline"
+    section: cronologia
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Nuestro Humilde Comienzo"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Una Agencia nace"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "La plantilla Jekyll es creada"
+        year: "2019"
+        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Título"
+        year: "2009-2011"
+        desc: "Su descripción aquí, **Markdown** es soportado completamente."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "¡Se parte <br> de Nuestra <br> Historia!"
+
+  about:
+    title: "Sobre nosotros"
+    text: "nuestra historia"
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: nosotros
+
+  clients:
+    section: clientes
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "NUESTRO INCREÍBLE EQUIPO"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: equipo
+    people:
+      - name: "Kay Garland"
+        role: "Lead Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Lead Marketer"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Contáctenos"
+    text: "Lorem ipsum or call 123456789"
+    section: contacto
+    name: "Nombre*"
+    name-validation: "Por favor ingrese su nombre."
+    email: "Correo Electrónico*"
+    email-validation: "Por favor ingrese su correo electrónico."
+    phone: "Número Telefónico*"
+    phone-validation: "Por favor ingrese su número telefónico."
+    message: "Mensaje*"
+    message-validation: "Por favor escriba un mensaje."
+    subject: "Envío del formulario de contacto"
+    submit: "Enviar Mensaje"
+
+  footer:
+    legal: "Política de Privacidad"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
+es-ES:
+  <<: *DEFAULT_ES
+es-CO:
+  <<: *DEFAULT_ES
