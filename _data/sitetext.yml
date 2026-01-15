@@ -15,7 +15,7 @@ en: &DEFAULT_EN
     text: I'm an experienced technical writer, product manager, and customer advocate with over 10 years in the tech industry. Currently working as a Senior UX Writer at AWS, I specialize in creating clear, user-focused documentation and advocating for customer experience in product design. My background spans from software engineering at IBM to technical writing and product management at Microsoft and AWS. I'm passionate about technology, gaming, DevOps, and making data-driven decisions that improve products for every user.
     button: View My Work
     buttonlink: "#portfolio"
-    image: assets/img/team/500x500.jpg
+    image: assets/img/elijah_headshot.png
     social:
       - url: https://linkedin.com/in/elijah-batkoski-54255559
         icon: fab fa-linkedin-in
