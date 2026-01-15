@@ -17,7 +17,7 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Elijah Batkoski - Resume
+title      : Elijah Batkoski / Resume
 email      : ebatkoski@gmail.com #this is also the email contact forms will go to
 description: "Experienced technical writer, product manager, and customer advocate with a strong background in AWS documentation and product development."
 author     : Elijah Batkoski
