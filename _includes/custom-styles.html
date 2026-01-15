@@ -1,7 +1,7 @@
 <!-- Custom Styles -->
 <style>
 /* Import Nunito Sans font */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;700&display=swap');
 
 /* Apply Nunito Sans to page title */
 .navbar-brand {
@@ -21,9 +21,14 @@ p, div, span, li, a, h1, h2, h3, h4, h5, h6 {
   font-family: 'Nunito Sans', sans-serif !important;
 }
 
-/* Keep headings at appropriate weights */
-h1, h2, h3, h4, h5, h6 {
+/* Keep main headings at bold weight */
+h1, h2, h3 {
   font-weight: 700 !important;
+}
+
+/* Medium weight for smaller headings */
+h4, h5, h6, .subheading {
+  font-weight: 500 !important;
 }
 
 /* Regular weight for body text */
