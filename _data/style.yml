@@ -1,7 +1,7 @@
 #Color Customization
-highlight: "#253568"  # Navy blue
-white: "#C4B09E"      # Beige
-black: "#253568"      # Navy for text
+highlight: "#2F5778"  # Navy blue
+white: "#FAF0E6"      # Beige
+black: "#2F5778"      # Navy for text
 
 #Image Customization
 header-image: ""      # Remove background image
