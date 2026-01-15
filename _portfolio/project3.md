@@ -3,6 +3,7 @@ title: Product Management at Microsoft
 subtitle: Feature development and customer-driven improvements
 image: assets/img/portfolio/03-full.jpg
 alt: Product Management
+icon: fas fa-tasks
 
 caption:
   title: Product Management

@@ -3,6 +3,7 @@ title: AWS CodeArtifact Documentation
 subtitle: Comprehensive API and user guide documentation
 image: assets/img/portfolio/01-full.jpg
 alt: AWS CodeArtifact Documentation
+icon: fas fa-file-alt
 
 caption:
   title: AWS CodeArtifact Docs

@@ -3,6 +3,7 @@ title: Customer Advocacy & UX
 subtitle: Championing user experience in product development
 image: assets/img/portfolio/06-full.jpg
 alt: Customer Advocacy
+icon: fas fa-users
 
 caption:
   title: Customer Advocacy

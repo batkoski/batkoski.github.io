@@ -53,30 +53,35 @@ en: &DEFAULT_EN
         year: "July 2025 - Present"
         desc: "Amazon Web Services - Leading UX writing initiatives for AWS Developer Tools, focusing on creating intuitive and user-friendly content experiences."
         image: assets/img/timeline/1.jpg
+        icon: fas fa-pen-fancy
         alt:
         align: left
       - title: "Senior Technical Writer & Documentation Manager"
         year: "2021-2025"
         desc: "Amazon Web Services - Developed and maintained technical documentation for AWS Developer Tools (CodeArtifact and CodeDeploy), including 50+ API operations and 700+ user guide topics. Advocated for customers during product design discussions and UX reviews."
         image: assets/img/timeline/2.jpg
+        icon: fas fa-file-alt
         alt:
         align: left
       - title: "Program Manager II & Content Developer II"
         year: "2016-2019"
         desc: "Microsoft - Managed product development backlog for 15+ developers, conducted customer outreach, and maintained 100+ articles for Azure DevOps. Created SEO plans and delivered monthly content performance reports to leadership."
         image: assets/img/timeline/3.jpg
+        icon: fas fa-tasks
         alt:
         align: left
       - title: "Software Engineer"
         year: "2014-2016"
         desc: "IBM - Designed and developed unit tests for WebSphere Application Server. Worked in an agile environment with Eclipse RTC and Git, and delivered support presentations to users."
         image: assets/img/timeline/4.jpg
+        icon: fas fa-code
         alt:
         align: left
       - title: "Bachelor of Science in Computer Science"
         year: "2014"
         desc: "University of North Carolina at Chapel Hill - Graduated with a strong foundation in computer science, algorithms, and software engineering."
         image: assets/img/timeline/4.jpg
+        icon: fas fa-graduation-cap
         alt:
         align: left
     end: "Let's Build <br> Something <br> Together!"

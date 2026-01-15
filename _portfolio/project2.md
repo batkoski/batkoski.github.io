@@ -3,6 +3,7 @@ title: Azure DevOps Documentation
 subtitle: REST API, extensibility, and Azure Artifacts documentation
 image: assets/img/portfolio/02-full.jpg
 alt: Azure DevOps Documentation
+icon: fas fa-cloud
 
 caption:
   title: Azure DevOps Docs

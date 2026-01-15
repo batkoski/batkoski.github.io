@@ -3,6 +3,7 @@ title: AWS CodeDeploy Documentation
 subtitle: Deployment automation documentation and guides
 image: assets/img/portfolio/04-full.jpg
 alt: AWS CodeDeploy Documentation
+icon: fas fa-rocket
 
 caption:
   title: AWS CodeDeploy Docs

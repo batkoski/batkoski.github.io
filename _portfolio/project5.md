@@ -3,6 +3,7 @@ title: WebSphere Application Server Testing
 subtitle: Unit test development and automation
 image: assets/img/portfolio/05-full.jpg
 alt: WebSphere Testing
+icon: fas fa-code
 
 caption:
   title: WebSphere Testing
