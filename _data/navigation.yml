@@ -19,8 +19,6 @@ en: &DEFAULT_EN
       section: timeline
     - title: "About"
       section: about
-    - title: "Connect"
-      section: team
 en-US:
   <<: *DEFAULT_EN
 en-CA:

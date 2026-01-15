@@ -1,0 +1,42 @@
+<!-- About Section -->
+<section class="page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about.title | markdownify | strip_html }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].about.text | markdownify | strip_html }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="row">
+          {% if site.data.sitetext[site.locale].about.image %}
+          <div class="col-sm-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="{{ site.data.sitetext[site.locale].about.image }}" alt="Profile Photo" style="width: 200px; height: 200px; object-fit: cover;">
+              {% if site.data.sitetext[site.locale].about.social %}
+              <ul class="list-inline social-buttons">
+                {% for link in site.data.sitetext[site.locale].about.social %}
+                <li class="list-inline-item">
+                  <a href="{{ link.url }}">
+                    <i class="{{ link.icon }}"></i>
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </div>
+          </div>
+          <div class="col-sm-8">
+            <p class="large text-muted">{{ site.data.sitetext[site.locale].about.body | markdownify }}</p>
+          </div>
+          {% else %}
+          <div class="col-lg-12">
+            <p class="large text-muted">{{ site.data.sitetext[site.locale].about.body | markdownify }}</p>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
