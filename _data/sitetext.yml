@@ -41,35 +41,38 @@ en: &DEFAULT_EN
     title: "Experience"
     text: "My professional journey"
     section: timeline
-    # left is the default
-    #start_align: "left"
+    start_align: "left"
     events:
       - title: "Senior UX Writer"
         year: "July 2025 - Present"
         desc: "Amazon Web Services - Leading UX writing initiatives for AWS Developer Tools, focusing on creating intuitive and user-friendly content experiences."
         image: assets/img/timeline/1.jpg
         alt:
+        align: left
       - title: "Senior Technical Writer & Documentation Manager"
         year: "2021-2025"
         desc: "Amazon Web Services - Developed and maintained technical documentation for AWS Developer Tools (CodeArtifact and CodeDeploy), including 50+ API operations and 700+ user guide topics. Advocated for customers during product design discussions and UX reviews."
         image: assets/img/timeline/2.jpg
         alt:
+        align: left
       - title: "Program Manager II & Content Developer II"
         year: "2016-2019"
         desc: "Microsoft - Managed product development backlog for 15+ developers, conducted customer outreach, and maintained 100+ articles for Azure DevOps. Created SEO plans and delivered monthly content performance reports to leadership."
         image: assets/img/timeline/3.jpg
-        alt: image alt text
+        alt:
+        align: left
       - title: "Software Engineer"
         year: "2014-2016"
         desc: "IBM - Designed and developed unit tests for WebSphere Application Server. Worked in an agile environment with Eclipse RTC and Git, and delivered support presentations to users."
         image: assets/img/timeline/4.jpg
         alt:
+        align: left
       - title: "Bachelor of Science in Computer Science"
         year: "2014"
         desc: "University of North Carolina at Chapel Hill - Graduated with a strong foundation in computer science, algorithms, and software engineering."
         image: assets/img/timeline/4.jpg
         alt:
-        align: right
+        align: left
     end: "Let's Build <br> Something <br> Together!"
 
   about:
@@ -78,38 +81,7 @@ en: &DEFAULT_EN
     body: "I'm an experienced technical writer, product manager, and customer advocate with over 10 years in the tech industry. Currently working as a Senior UX Writer at AWS, I specialize in creating clear, user-focused documentation and advocating for customer experience in product design. My background spans from software engineering at IBM to technical writing and product management at Microsoft and AWS. I'm passionate about technology, gaming, DevOps, and making data-driven decisions that improve products for every user."
     section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "Git"
-        url: https://git-scm.com
-        logo: assets/img/clients/envato.jpg
-      - title: "Markdown"
-        url: https://www.markdownguide.org
-        logo: assets/img/clients/designmodo.jpg
-      - title: "Python"
-        url: https://www.python.org
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Java"
-        url: https://www.java.com
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "Let's Connect"
-    text: "Find me on these platforms"
-    subtext: I'm always interested in hearing about new opportunities and collaborations in technical writing, product management, and customer advocacy. Feel free to reach out!
-    section: team
-    people:
-      - name: "Elijah Batkoski"
-        role: "Senior UX Writer at AWS"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://linkedin.com/in/elijah-batkoski-54255559
-            icon: fab fa-linkedin-in
-          - url: mailto:ebatkoski@gmail.com
-            icon: fas fa-envelope
+  # Clients and team sections removed
 
   contact:
     title: "Get In Touch"
