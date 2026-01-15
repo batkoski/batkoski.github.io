@@ -17,8 +17,6 @@ en: &DEFAULT_EN
       section: portfolio
     - title: "Experience"
       section: timeline
-    - title: "About"
-      section: about
 en-US:
   <<: *DEFAULT_EN
 en-CA:

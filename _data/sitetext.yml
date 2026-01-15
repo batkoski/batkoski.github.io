@@ -12,9 +12,15 @@
 en: &DEFAULT_EN
   header:
     title: Hi, I'm Elijah Batkoski
-    text: Technical Writer | Product Manager | Customer Advocate
+    text: I'm an experienced technical writer, product manager, and customer advocate with over 10 years in the tech industry. Currently working as a Senior UX Writer at AWS, I specialize in creating clear, user-focused documentation and advocating for customer experience in product design. My background spans from software engineering at IBM to technical writing and product management at Microsoft and AWS. I'm passionate about technology, gaming, DevOps, and making data-driven decisions that improve products for every user.
     button: View My Work
     buttonlink: "#portfolio"
+    image: assets/img/team/500x500.jpg
+    social:
+      - url: https://linkedin.com/in/elijah-batkoski-54255559
+        icon: fab fa-linkedin-in
+      - url: mailto:ebatkoski@gmail.com
+        icon: fas fa-envelope
 
   services:
     title: "Skills"
@@ -75,27 +81,13 @@ en: &DEFAULT_EN
         align: left
     end: "Let's Build <br> Something <br> Together!"
 
-  about:
-    title: "About Me"
-    text: "who I am"
-    body: "I'm an experienced technical writer, product manager, and customer advocate with over 10 years in the tech industry. Currently working as a Senior UX Writer at AWS, I specialize in creating clear, user-focused documentation and advocating for customer experience in product design. My background spans from software engineering at IBM to technical writing and product management at Microsoft and AWS. I'm passionate about technology, gaming, DevOps, and making data-driven decisions that improve products for every user."
-    section: about
-    image: assets/img/team/500x500.jpg
-    social:
-      - url: https://linkedin.com/in/elijah-batkoski-54255559
-        icon: fab fa-linkedin-in
-      - url: mailto:ebatkoski@gmail.com
-        icon: fas fa-envelope
+  # About section moved to header - removed
 
   # Team, clients, and contact sections removed
 
   footer:
     legal: "Privacy Policy"
-    social:
-      - url: https://linkedin.com/in/elijah-batkoski-54255559
-        icon: "fab fa-linkedin-in"
-      - url: mailto:ebatkoski@gmail.com
-        icon: "fas fa-envelope"
+    social: []
 en-US:
   <<: *DEFAULT_EN
 en-CA:
