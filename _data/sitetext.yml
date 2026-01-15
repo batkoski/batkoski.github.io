@@ -81,22 +81,22 @@ en: &DEFAULT_EN
     body: "I'm an experienced technical writer, product manager, and customer advocate with over 10 years in the tech industry. Currently working as a Senior UX Writer at AWS, I specialize in creating clear, user-focused documentation and advocating for customer experience in product design. My background spans from software engineering at IBM to technical writing and product management at Microsoft and AWS. I'm passionate about technology, gaming, DevOps, and making data-driven decisions that improve products for every user."
     section: about
 
-  # Clients and team sections removed
+  team:
+    title: "Let's Connect"
+    text: "Find me on these platforms"
+    subtext: I'm always interested in hearing about new opportunities and collaborations in technical writing, product management, and customer advocacy. Feel free to reach out!
+    section: team
+    people:
+      - name: "Elijah Batkoski"
+        role: "Senior UX Writer at AWS"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://linkedin.com/in/elijah-batkoski-54255559
+            icon: fab fa-linkedin-in
+          - url: mailto:ebatkoski@gmail.com
+            icon: fas fa-envelope
 
-  contact:
-    title: "Get In Touch"
-    text: "Let's discuss your next project"
-    section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+  # Clients and contact sections removed
 
   footer:
     legal: "Privacy Policy"
