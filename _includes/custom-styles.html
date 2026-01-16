@@ -44,4 +44,23 @@ p, div, span, li {
 .timeline > li:last-child::before {
   display: none !important;
 }
+
+/* Make project modals smaller and not full screen */
+.portfolio-modal .modal-dialog {
+  max-width: 800px !important;
+  margin: 50px auto !important;
+}
+
+.portfolio-modal .modal-content {
+  padding: 50px !important;
+}
+
+/* Make project images much smaller */
+.portfolio-modal .modal-body img {
+  width: 20% !important;
+  max-width: 200px !important;
+  height: auto !important;
+  margin: 0 auto 30px !important;
+  display: block !important;
+}
 </style>
