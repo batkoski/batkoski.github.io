@@ -41,7 +41,7 @@ en: &DEFAULT_EN
     title: "Projects"
     text: "Check out some of my recent work"
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
 
   timeline:
     title: "Experience"
