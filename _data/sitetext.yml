@@ -50,57 +50,65 @@ en: &DEFAULT_EN
     start_align: "left"
     events:
       - title: "Senior UX Writer"
+        company: "Amazon Web Services"
         year: "July 2025 - Present"
-        desc: "Amazon Web Services - Created comprehensive copy guidance for Quick Suite product launch, participated in 50+ Fit and Finish reviews, and designed 'UX Copy Writing Assistant' custom AI agent enabling teams to generate publish-ready copy in seconds."
+        desc: "Created comprehensive copy guidance for Quick Suite product launch, participated in 50+ Fit and Finish reviews, and designed 'UX Copy Writing Assistant' custom AI agent enabling teams to generate publish-ready copy in seconds."
         image: assets/img/timeline/1.jpg
         icon: fas fa-pen-fancy
         alt:
         align: left
       - title: "Senior Technical Writer"
+        company: "Amazon Web Services"
         year: "July 2023 - July 2025"
-        desc: "Amazon Web Services - Led team of 6 writers creating documentation for Quick Suite, leveraged Bedrock to organize 1,500+ QuickSight customer tickets, and orchestrated documentation for 10+ CodeCatalyst feature launches at AWS re:Invent."
+        desc: "Led team of 6 writers creating documentation for Quick Suite, leveraged Bedrock to organize 1,500+ QuickSight customer tickets, and orchestrated documentation for 10+ CodeCatalyst feature launches at AWS re:Invent."
         image: assets/img/timeline/2.jpg
         icon: fas fa-file-alt
         alt:
         align: left
       - title: "Senior Documentation Manager"
+        company: "Amazon Web Services"
         year: "May 2022 - July 2023"
-        desc: "Amazon Web Services - Managed team of 6 technical writers supporting CodeCatalyst documentation, led agile development processes, and drove documentation strategy for CodeCatalyst GA release in April 2023."
+        desc: "Managed team of 6 technical writers supporting CodeCatalyst documentation, led agile development processes, and drove documentation strategy for CodeCatalyst GA release in April 2023."
         image: assets/img/timeline/3.jpg
         icon: fas fa-users-cog
         alt:
         align: left
       - title: "Senior Technical Writer"
+        company: "Amazon Web Services"
         year: "October 2021 - May 2022"
-        desc: "Amazon Web Services - Established documentation patterns and content architecture for CodeCatalyst prior to December 2022 public preview, creating foundational standards for new integrated DevOps service."
+        desc: "Established documentation patterns and content architecture for CodeCatalyst prior to December 2022 public preview, creating foundational standards for new integrated DevOps service."
         image: assets/img/timeline/4.jpg
         icon: fas fa-file-alt
         alt:
         align: left
       - title: "Technical Writer"
+        company: "Amazon Web Services"
         year: "November 2019 - September 2021"
-        desc: "Amazon Web Services - Developed and maintained technical documentation for Developer Tools (CodeArtifact and CodeDeploy), including 50+ API operations and 700 user guide topics."
+        desc: "Developed and maintained technical documentation for Developer Tools (CodeArtifact and CodeDeploy), including 50+ API operations and 700 user guide topics."
         image: assets/img/timeline/4.jpg
         icon: fas fa-file-code
         alt:
         align: left
       - title: "Program Manager II & Content Developer II"
+        company: "Microsoft"
         year: "2016-2019"
-        desc: "Microsoft - Managed product development backlog for 15+ developers, conducted customer outreach, and maintained 100+ articles for Azure DevOps. Created SEO plans and delivered monthly content performance reports to leadership."
+        desc: "Managed product development backlog for 15+ developers, conducted customer outreach, and maintained 100+ articles for Azure DevOps. Created SEO plans and delivered monthly content performance reports to leadership."
         image: assets/img/timeline/3.jpg
         icon: fas fa-tasks
         alt:
         align: left
       - title: "Software Engineer"
+        company: "IBM"
         year: "2014-2016"
-        desc: "IBM - Designed and developed unit tests for WebSphere Application Server's intelligent management and dynamic routing functionality. Worked with Eclipse RTC and Git in an agile environment."
+        desc: "Designed and developed unit tests for WebSphere Application Server's intelligent management and dynamic routing functionality. Worked with Eclipse RTC and Git in an agile environment."
         image: assets/img/timeline/4.jpg
         icon: fas fa-code
         alt:
         align: left
       - title: "Bachelor of Science in Computer Science"
+        company: "University of North Carolina at Chapel Hill"
         year: "2014"
-        desc: "University of North Carolina at Chapel Hill - Graduated with a strong foundation in computer science, algorithms, and software engineering."
+        desc: "Graduated with a strong foundation in computer science, algorithms, and software engineering."
         image: assets/img/timeline/4.jpg
         icon: fas fa-graduation-cap
         alt:
