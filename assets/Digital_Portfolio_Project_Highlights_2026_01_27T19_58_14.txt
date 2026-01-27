@@ -1,0 +1,231 @@
+Digital Portfolio: Project Highlights
+
+Recommended Projects to Showcase
+
+Based on your resume and experience, here are the top 5 projects to highlight in your digital portfolio, with complete structure and content for each.
+
+UX Copy Writing Assistant (AI Agent)
+
+Why highlight: Most innovative project demonstrating practical AI application, dogfooding, and immediate business value. Highly relevant for AI-focused roles.
+
+Overview
+• Role: Senior UX Writer, AWS
+• Timeline: 2025
+• Challenge: Designers and product teams needed quick, brand-consistent copy but lacked writing resources
+• Solution: Built custom AI agent using Quick Suite that generates publish-ready copy from design screenshots in seconds
+
+My Contributions
+• Designed the agent's conversation flow and prompting strategy
+• Trained the agent on Quick Suite brand voice and style guidelines
+• Tested and iterated based on designer feedback
+• Drove adoption across design and product teams
+
+Impact
+• Reduced copy turnaround time from days to seconds
+• Enabled non-writers to generate brand-consistent copy
+• Demonstrated practical AI application that influenced product roadmap
+
+Visuals to Include
+• Screenshots of the agent interface
+• Before/after examples of copy generation
+• User testimonials or adoption metrics (if available)
+
+Quick Suite Brand Voice & Copy Guidance
+
+Why highlight: Shows end-to-end UX writing leadership—from research to implementation. Demonstrates strategic thinking, user research, and brand development.
+
+Overview
+• Role: Senior UX Writer, AWS
+• Timeline: July 2025 - October 2025
+• Challenge: Quick Suite needed distinctive brand voice to differentiate from standard AWS patterns for October 2025 launch
+• Solution: Created comprehensive copy guidance through rapid ramp-up, user research, and cross-functional collaboration
+
+My Contributions
+• Rapidly created initial copy guidance based on AWS Style Guidelines
+• Orchestrated personality survey with leadership and users
+• Analyzed survey results to define distinctive brand voice and tone
+• Transformed findings into comprehensive style guide
+• Participated in 50+ Fit and Finish reviews to ensure consistency
+
+Impact
+• Established consistent voice across entire Quick Suite platform
+• Created distinctive brand that differentiates from AWS patterns
+• Enabled design and product teams to maintain consistency
+• Reduced cognitive load for users through clear, consistent copy
+
+Visuals to Include
+• Excerpts from the style guide (voice/tone examples)
+• Before/after copy examples showing brand transformation
+• Survey methodology and key findings
+• Examples of copy applied across different product areas
+
+Organizing 1,500+ Customer Tickets with Amazon Bedrock
+
+Why highlight: Demonstrates AI/ML expertise, data-driven decision making, and customer empathy. Shows how you use AI to solve real business problems.
+
+Overview
+• Role: Senior Technical Writer, AWS
+• Timeline: Early 2024
+• Challenge: 1,500+ QuickSight customer tickets created documentation backlog and unclear priorities before Quick Suite transition
+• Solution: Leveraged Amazon Bedrock to organize, analyze, and prioritize tickets, transforming them into actionable documentation improvements
+
+My Contributions
+• Collaborated with support teams to access and structure ticket data
+• Designed Bedrock prompts to categorize and prioritize tickets
+• Analyzed patterns to identify high-impact documentation gaps
+• Cleaned up code repositories and documentation backlogs
+• Transformed insights into Quick Suite documentation strategy
+
+Impact
+• Organized 1,500+ tickets into actionable priorities
+• Identified critical documentation gaps before product transition
+• Informed Quick Suite documentation roadmap
+• Reduced technical debt and improved documentation quality
+
+Visuals to Include
+• Data visualization of ticket categories/priorities
+• Process diagram showing workflow
+• Examples of documentation improvements driven by ticket analysis
+• Metrics on documentation quality improvement
+
+App Studio Documentation (Sole Writer)
+
+Why highlight: Shows end-to-end ownership, technical depth, and product influence. Demonstrates ability to work independently on complex, AI-assisted platforms.
+
+Overview
+• Role: Senior Technical Writer, AWS
+• Timeline: Early 2024 - November 2024
+• Challenge: App Studio—a highly complex, AI-assisted internal application creation platform—needed comprehensive documentation for GA launch
+• Solution: Served as sole technical writer, architecting complete builder and administrator documentation from scratch
+
+My Contributions
+• Architected information structure for builder and administrator audiences
+• Created foundational "how it works" documentation with diagrams
+• Developed screenshot walkthroughs for complex configuration workflows
+• Partnered with PM and engineering teams on product suggestions
+• Created UX designs in Figma to improve product experience
+• Delivered complete documentation suite for November 2024 GA launch
+
+Impact
+• Enabled successful GA launch with comprehensive documentation
+• Influenced product direction through UX design contributions
+• Created documentation patterns for AI-assisted platforms
+• Supported complex, configurable platform with clear guidance
+
+Visuals to Include
+• Information architecture diagram
+• Examples of "how it works" documentation with diagrams
+• Screenshot walkthroughs showing complex workflows
+• Figma designs you contributed to product team
+• Before/after examples of product improvements you influenced
+
+CodeCatalyst: 10+ Feature Launches at AWS re:Invent
+
+Why highlight: Demonstrates scale, coordination, and ability to deliver under pressure. Shows cross-functional leadership and organizational impact.
+
+Overview
+• Role: Senior Technical Writer, AWS
+• Timeline: November 2023 (re:Invent)
+• Challenge: Coordinate documentation for 10+ CodeCatalyst feature launches at AWS's largest annual conference with tight deadlines
+• Solution: Orchestrated documentation delivery across multiple teams, ensuring all features had comprehensive documentation for conference launch
+
+My Contributions
+• Coordinated with product, engineering, and marketing teams
+• Managed documentation pipeline across 10+ features
+• Ensured consistency and quality across all launches
+• Delivered all documentation on time for conference deadlines
+• Presented implementation guidance to 150+ technical writers
+
+Impact
+• Successfully launched 10+ features at AWS's largest conference
+• Enabled thousands of developers to adopt new CodeCatalyst features
+• Drove organization-wide adoption of new launch processes
+• Demonstrated ability to deliver at scale under pressure
+
+Visuals to Include
+• Timeline showing coordination across 10+ features
+• Examples of documentation for different features
+• Photos/screenshots from re:Invent (if available)
+• Metrics on documentation usage/adoption post-launch
+• Presentation slides from 150+ writer session
+
+Portfolio Structure Recommendations
+
+Homepage
+• Brief introduction highlighting your UX writing and AI expertise
+• Featured projects (the 5 above)
+• Skills summary
+• Contact information
+
+Each Project Page
+• Hero image or visual
+• Overview section (role, timeline, challenge, solution)
+• My Contributions (detailed breakdown)
+• Impact (quantifiable results)
+• Visuals (screenshots, diagrams, examples)
+• Lessons learned (optional)
+• Related projects or skills
+
+Additional Sections
+• About page (expanded professional summary)
+• Resume/CV download
+• Writing samples
+• Contact page
+
+Design Principles
+• Clean, scannable layout
+• Strong visual hierarchy
+• Plenty of white space
+• Mobile-responsive
+• Fast loading times
+• Accessible (WCAG compliant)
+
+Key Metrics Across Projects
+• 1,500+ customer tickets organized and prioritized using AI
+• 50+ product reviews participated in (Fit and Finish)
+• 10+ feature launches orchestrated at AWS re:Invent
+• 150+ technical writers presented to for organization-wide adoption
+• 700 user guide topics developed and maintained
+• 50+ API operations documented
+• 6 writers managed on Quick Suite team
+• 500+ engineers supported across service teams
+• 3 junior writers mentored
+• 2 writers successfully promoted
+
+Skills Demonstrated Across Projects
+
+UX Writing Expertise
+• Brand voice and tone development
+• Copy guidance and style guides
+• 50+ product reviews
+• Consistency and clarity optimization
+
+Technical Writing Depth
+• API documentation
+• Complex platform documentation
+• Multiple product launches
+• Information architecture
+
+AI/ML Innovation
+• Amazon Bedrock implementation
+• Custom AI agent development
+• AI-powered feature design
+• Generative AI for automation
+
+Product Impact
+• Influenced product direction
+• UX designs in Figma
+• Customer advocacy
+• Data-driven improvements
+
+Leadership
+• Team management (6+ writers)
+• Mentorship (3 junior writers)
+• Organizational initiatives
+• Cross-functional collaboration
+
+Scale
+• 1,500+ tickets analyzed
+• 500+ engineers supported
+• 150+ writers trained
+• 10+ concurrent launches

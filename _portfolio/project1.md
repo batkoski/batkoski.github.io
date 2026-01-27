@@ -1,27 +1,44 @@
 ---
-title: UX Copy Writing Assistant AI Agent
-subtitle: Custom AI agent for generating publish-ready copy
+title: UX Copy Writing Assistant (AI Agent)
+subtitle: Custom AI agent generating publish-ready copy from design screenshots
 image: assets/img/portfolio/01-full.jpg
 alt: UX Copy Writing Assistant
 icon: fas fa-robot
 
 caption:
   title: AI Copy Assistant
-  subtitle: AI/ML Innovation
+  subtitle: AI Innovation & UX Writing
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
----
-Designed and deployed a custom AI agent that enables designers and product teams to generate publish-ready copy in seconds from design screenshots. This innovative solution streamlines the content creation process and ensures consistency across AWS Quick Suite products.
 
-**Key Achievements:**
-- Built custom AI agent using AWS Bedrock
-- Automated copy generation from design screenshots
-- Enabled instant publish-ready content creation
-- Reduced content creation time from hours to seconds
-- Improved consistency across product teams
+slideshow:
+  - image: assets/img/portfolio/01-slide1.jpg
+    caption: "Agent interface showing design screenshot upload"
+  - image: assets/img/portfolio/01-slide2.jpg
+    caption: "Generated copy output with brand voice consistency"
+  - image: assets/img/portfolio/01-slide3.jpg
+    caption: "Before/after examples of copy generation"
+---
+
+**Role:** Senior UX Writer, AWS | **Timeline:** 2025
+
+**Challenge:** Designers and product teams needed quick, brand-consistent copy but lacked writing resources.
+
+**Solution:** Built custom AI agent using Quick Suite that generates publish-ready copy from design screenshots in seconds.
+
+## My Contributions
+- Designed the agent's conversation flow and prompting strategy
+- Trained the agent on Quick Suite brand voice and style guidelines
+- Tested and iterated based on designer feedback
+- Drove adoption across design and product teams
+
+## Impact
+- **Reduced copy turnaround time from days to seconds**
+- Enabled non-writers to generate brand-consistent copy
+- Demonstrated practical AI application that influenced product roadmap
+- Showcased innovative use of AI for content creation
 
 {:.list-inline}
-- Date: 2025
-- Technologies: AWS Bedrock, AI/ML, Custom Agents
-- Category: AI Innovation
-- Company: Amazon Web Services
+- **Technologies:** AWS Bedrock, Quick Suite, AI/ML
+- **Category:** AI Innovation & UX Writing
+- **Impact:** Seconds vs. days turnaround time
 

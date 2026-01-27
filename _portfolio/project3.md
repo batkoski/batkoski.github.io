@@ -1,28 +1,45 @@
 ---
-title: AWS CodeCatalyst Documentation Architecture
-subtitle: Foundational documentation for integrated DevOps service
+title: Organizing 1,500+ Customer Tickets with Amazon Bedrock
+subtitle: AI-powered data analysis for documentation strategy
 image: assets/img/portfolio/03-full.jpg
-alt: CodeCatalyst Documentation
-icon: fas fa-project-diagram
+alt: Bedrock Ticket Analysis
+icon: fas fa-chart-line
 
 caption:
-  title: CodeCatalyst Architecture
-  subtitle: Documentation Strategy
+  title: AI Data Analysis
+  subtitle: AI/ML & Customer Insights
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
----
-Established documentation patterns and content architecture for AWS CodeCatalyst prior to December 2022 public preview, creating foundational standards for the new integrated DevOps service. Orchestrated documentation for 10+ feature launches at AWS re:Invent.
 
-**Key Achievements:**
-- Created foundational documentation architecture for new service
-- Established content patterns and standards
-- Orchestrated documentation for 10+ CodeCatalyst feature launches
-- Presented implementation guidance to 150+ technical writers
-- Drove organization-wide adoption of documentation standards
-- Supported successful GA release in April 2023
+slideshow:
+  - image: assets/img/portfolio/03-slide1.jpg
+    caption: "Data visualization of ticket categories and priorities"
+  - image: assets/img/portfolio/03-slide2.jpg
+    caption: "Process diagram showing AI-powered workflow"
+  - image: assets/img/portfolio/03-slide3.jpg
+    caption: "Documentation improvements driven by ticket analysis"
+---
+
+**Role:** Senior Technical Writer, AWS | **Timeline:** Early 2024
+
+**Challenge:** 1,500+ QuickSight customer tickets created documentation backlog and unclear priorities before Quick Suite transition.
+
+**Solution:** Leveraged Amazon Bedrock to organize, analyze, and prioritize tickets, transforming them into actionable documentation improvements.
+
+## My Contributions
+- Collaborated with support teams to access and structure ticket data
+- Designed Bedrock prompts to categorize and prioritize tickets
+- Analyzed patterns to identify high-impact documentation gaps
+- Cleaned up code repositories and documentation backlogs
+- Transformed insights into Quick Suite documentation strategy
+
+## Impact
+- **Organized 1,500+ tickets into actionable priorities**
+- Identified critical documentation gaps before product transition
+- Informed Quick Suite documentation roadmap
+- Reduced technical debt and improved documentation quality
 
 {:.list-inline}
-- Date: 2021-2023
-- Company: Amazon Web Services
-- Category: Documentation Architecture
-- Impact: 150+ writers trained
+- **Scale:** 1,500+ customer tickets analyzed
+- **Technologies:** Amazon Bedrock, Data Analysis
+- **Category:** AI/ML & Customer Insights
 
