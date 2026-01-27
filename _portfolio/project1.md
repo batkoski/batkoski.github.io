@@ -19,10 +19,10 @@ slideshow:
     caption: "Before/after examples of copy generation"
 ---
 
-**Role:** Senior UX Writer, AWS | **Timeline:** 2025
-
+**Role:** Senior UX Writer, AWS
+**Timeline:** H2 2025
+**Category:** AI Innovation, Scaling, UX Writing Guidance and Consistency
 **Challenge:** Designers and product teams needed quick, brand-consistent copy but lacked writing resources.
-
 **Solution:** Built custom AI agent using Quick Suite that generates publish-ready copy from design screenshots in seconds.
 
 ## My Contributions
@@ -32,13 +32,7 @@ slideshow:
 - Drove adoption across design and product teams
 
 ## Impact
-- **Reduced copy turnaround time from days to seconds**
+- Reduced copy turnaround time from days to seconds
 - Enabled non-writers to generate brand-consistent copy
 - Demonstrated practical AI application that influenced product roadmap
 - Showcased innovative use of AI for content creation
-
-{:.list-inline}
-- **Technologies:** AWS Bedrock, Quick Suite, AI/ML
-- **Category:** AI Innovation & UX Writing
-- **Impact:** Seconds vs. days turnaround time
-

@@ -15,36 +15,45 @@
               <h2 class="text-uppercase">{{ project.title }}</h2>
               <p class="item-intro text-muted">{{ project.subtitle }}</p>
               
+              {{ project.content }}
+              
               {% if project.slideshow %}
-              <!-- Image Slideshow -->
-              <div id="carousel{{ forloop.index }}" class="carousel slide mb-4" data-ride="carousel">
+              <!-- Image Slideshow at bottom -->
+              <div id="carousel{{ forloop.index }}" class="carousel slide mt-4" data-interval="false">
                 <div class="carousel-inner">
                   {% for slide in project.slideshow %}
                   <div class="carousel-item {% if forloop.first %}active{% endif %}">
                     <img class="d-block w-100" src="{{ slide.image }}" alt="{{ slide.caption }}" style="max-height: 300px; object-fit: contain;">
-                    <div class="carousel-caption d-none d-md-block">
-                      <p class="bg-dark text-white p-2 rounded">{{ slide.caption }}</p>
-                    </div>
                   </div>
                   {% endfor %}
                 </div>
+                
+                <!-- Caption below image -->
+                <div class="carousel-caption-below mt-2 text-center">
+                  {% for slide in project.slideshow %}
+                  <p class="caption-text {% unless forloop.first %}d-none{% endunless %}" data-slide="{{ forloop.index0 }}">{{ slide.caption }}</p>
+                  {% endfor %}
+                </div>
+                
                 {% if project.slideshow.size > 1 %}
-                <a class="carousel-control-prev" href="#carousel{{ forloop.index }}" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel{{ forloop.index }}" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+                <!-- Navigation buttons -->
+                <div class="carousel-controls text-center mt-3">
+                  <button class="btn btn-outline-secondary btn-sm mr-2" type="button" data-target="#carousel{{ forloop.index }}" data-slide="prev">
+                    <i class="fas fa-chevron-left"></i> Previous
+                  </button>
+                  <button class="btn btn-outline-secondary btn-sm" type="button" data-target="#carousel{{ forloop.index }}" data-slide="next">
+                    <i class="fas fa-chevron-right"></i> Next
+                  </button>
+                </div>
                 {% endif %}
               </div>
               {% endif %}
               
-              {{ project.content }}
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                {{ site.data.sitetext[site.locale].portfolio.closebutton }}
-              </button>
+              <div class="text-center mt-4">
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  {{ site.data.sitetext[site.locale].portfolio.closebutton }}
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -53,3 +62,19 @@
   </div>
 </div>
 {% endfor %}
+
+<script>
+// Handle caption switching
+$(document).ready(function() {
+  $('.carousel').on('slide.bs.carousel', function (e) {
+    var slideIndex = $(e.relatedTarget).index();
+    var carouselId = $(this).attr('id');
+    
+    // Hide all captions for this carousel
+    $('#' + carouselId).find('.caption-text').addClass('d-none');
+    
+    // Show the caption for the active slide
+    $('#' + carouselId).find('.caption-text[data-slide="' + slideIndex + '"]').removeClass('d-none');
+  });
+});
+</script>
