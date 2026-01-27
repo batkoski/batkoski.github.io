@@ -11,11 +11,11 @@ caption:
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 
 slideshow:
-  - image: assets/img/portfolio/01-slide1.jpg
+  - image: assets/img/portfolio/01-full.jpg
     caption: "Agent interface showing design screenshot upload"
-  - image: assets/img/portfolio/01-slide2.jpg
+  - image: assets/img/portfolio/02-full.jpg
     caption: "Generated copy output with brand voice consistency"
-  - image: assets/img/portfolio/01-slide3.jpg
+  - image: assets/img/portfolio/03-full.jpg
     caption: "Before/after examples of copy generation"
 ---
 

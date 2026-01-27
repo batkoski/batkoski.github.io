@@ -11,11 +11,11 @@ caption:
   thumbnail: assets/img/portfolio/04-thumbnail.jpg
 
 slideshow:
-  - image: assets/img/portfolio/04-slide1.jpg
+  - image: assets/img/portfolio/04-full.jpg
     caption: "Information architecture diagram for builder and admin audiences"
-  - image: assets/img/portfolio/04-slide2.jpg
+  - image: assets/img/portfolio/05-full.jpg
     caption: "How it works documentation with detailed diagrams"
-  - image: assets/img/portfolio/04-slide3.jpg
+  - image: assets/img/portfolio/06-full.jpg
     caption: "Figma designs contributed to improve product UX"
 ---
 

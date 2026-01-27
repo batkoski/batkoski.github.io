@@ -11,11 +11,11 @@ caption:
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 
 slideshow:
-  - image: assets/img/portfolio/02-slide1.jpg
+  - image: assets/img/portfolio/04-full.jpg
     caption: "Style guide excerpts showing voice and tone examples"
-  - image: assets/img/portfolio/02-slide2.jpg
+  - image: assets/img/portfolio/05-full.jpg
     caption: "Survey methodology and key findings visualization"
-  - image: assets/img/portfolio/02-slide3.jpg
+  - image: assets/img/portfolio/06-full.jpg
     caption: "Before/after copy examples showing brand transformation"
 ---
 

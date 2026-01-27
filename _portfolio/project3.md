@@ -11,11 +11,11 @@ caption:
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 
 slideshow:
-  - image: assets/img/portfolio/03-slide1.jpg
+  - image: assets/img/portfolio/01-full.jpg
     caption: "Data visualization of ticket categories and priorities"
-  - image: assets/img/portfolio/03-slide2.jpg
+  - image: assets/img/portfolio/02-full.jpg
     caption: "Process diagram showing AI-powered workflow"
-  - image: assets/img/portfolio/03-slide3.jpg
+  - image: assets/img/portfolio/03-full.jpg
     caption: "Documentation improvements driven by ticket analysis"
 ---
 

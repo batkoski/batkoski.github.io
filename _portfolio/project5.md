@@ -11,11 +11,11 @@ caption:
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 
 slideshow:
-  - image: assets/img/portfolio/05-slide1.jpg
+  - image: assets/img/portfolio/01-full.jpg
     caption: "Timeline showing coordination across 10+ features"
-  - image: assets/img/portfolio/05-slide2.jpg
+  - image: assets/img/portfolio/02-full.jpg
     caption: "Documentation examples for different CodeCatalyst features"
-  - image: assets/img/portfolio/05-slide3.jpg
+  - image: assets/img/portfolio/03-full.jpg
     caption: "Presentation to 150+ technical writers on implementation guidance"
 ---
 
