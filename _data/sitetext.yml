@@ -13,8 +13,6 @@ en: &DEFAULT_EN
   header:
     title: Hi, I'm Elijah.
     text: I'm a results-driven technical writer and UX professional with 7+ years driving product quality for AI-powered developer tools at IBM, Microsoft, and AWS. I'm an expert in content strategy, information architecture, and cross-functional collaboration with engineering, product management, and support teams. I've successfully led documentation for multiple product launches, managed teams of 6+ writers, and leveraged AI/ML tools to organize 1,500+ customer tickets and create innovative solutions that deliver immediate value to technical users.
-    button: View My Work
-    buttonlink: "#portfolio"
     image: assets/img/elijah_headshot.png
     social:
       - url: https://linkedin.com/in/elijah-batkoski-54255559
