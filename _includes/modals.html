@@ -18,8 +18,9 @@
               {{ project.content }}
               
               {% if project.slideshow %}
-              <!-- Image Slideshow at bottom -->
-              <div id="carousel{{ forloop.index }}" class="carousel slide mt-4" data-interval="false">
+              <!-- Visuals section -->
+              <h3>Visuals</h3>
+              <div id="carousel{{ forloop.index }}" class="carousel slide mt-3" data-interval="false">
                 <div class="carousel-inner">
                   {% for slide in project.slideshow %}
                   <div class="carousel-item {% if forloop.first %}active{% endif %}">
@@ -31,25 +32,25 @@
                 <!-- Caption below image -->
                 <div class="carousel-caption-below mt-2 text-center">
                   {% for slide in project.slideshow %}
-                  <p class="caption-text {% unless forloop.first %}d-none{% endunless %}" data-slide="{{ forloop.index0 }}">{{ slide.caption }}</p>
+                  <p class="caption-text {% unless forloop.first %}d-none{% endunless %}" data-slide="{{ forloop.index0 }}" style="font-style: italic; color: #6c757d; margin-bottom: 0;">{{ slide.caption }}</p>
                   {% endfor %}
                 </div>
                 
                 {% if project.slideshow.size > 1 %}
                 <!-- Navigation buttons -->
-                <div class="carousel-controls text-center mt-3">
-                  <button class="btn btn-outline-secondary btn-sm mr-2" type="button" data-target="#carousel{{ forloop.index }}" data-slide="prev">
+                <div class="carousel-controls text-center mt-2 mb-4">
+                  <a href="#" class="text-muted mr-3" data-target="#carousel{{ forloop.index }}" data-slide="prev" style="text-decoration: none;">
                     <i class="fas fa-chevron-left"></i> Previous
-                  </button>
-                  <button class="btn btn-outline-secondary btn-sm" type="button" data-target="#carousel{{ forloop.index }}" data-slide="next">
+                  </a>
+                  <a href="#" class="text-muted" data-target="#carousel{{ forloop.index }}" data-slide="next" style="text-decoration: none;">
                     <i class="fas fa-chevron-right"></i> Next
-                  </button>
+                  </a>
                 </div>
                 {% endif %}
               </div>
               {% endif %}
               
-              <div class="text-center mt-4">
+              <div class="text-center mt-5">
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   {{ site.data.sitetext[site.locale].portfolio.closebutton }}
                 </button>

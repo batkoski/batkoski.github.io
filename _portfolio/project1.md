@@ -19,10 +19,10 @@ slideshow:
     caption: "Before/after examples of copy generation"
 ---
 
-**Role:** Senior UX Writer, AWS
-**Timeline:** H2 2025
-**Category:** AI Innovation, Scaling, UX Writing Guidance and Consistency
-**Challenge:** Designers and product teams needed quick, brand-consistent copy but lacked writing resources.
+**Role:** Senior UX Writer, AWS  
+**Timeline:** H2 2025  
+**Category:** AI Innovation, Scaling, UX Writing Guidance and Consistency  
+**Challenge:** Designers and product teams needed quick, brand-consistent copy but lacked writing resources.  
 **Solution:** Built custom AI agent using Quick Suite that generates publish-ready copy from design screenshots in seconds.
 
 ## My Contributions
