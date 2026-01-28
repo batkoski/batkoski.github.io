@@ -25,15 +25,15 @@ en: &DEFAULT_EN
     text: "What I bring to the table"
     section: services
     list:
-      - title: "Content Strategy & UX Writing"
-        desc: "Expert in content strategy, information architecture, and UX writing with proficiency in Figma for design collaboration and user-centered content creation."
-        icon: fas fa-pen-fancy
-      - title: "AI/ML Tools & Automation"
-        desc: "Experienced with AI/ML tools including Bedrock, custom AI agents, and generative AI for content creation and automation of complex workflows."
+      - title: "Leverage AI/ML tools & automation"
+        desc: "Design and deploy AI-powered solutions that transform manual workflows into automated, scalable systems delivering immediate business value."
         icon: fas fa-robot
-      - title: "Technical Foundation"
-        desc: "Strong technical foundation in git, Markdown, XML, JSON, Python, and JavaScript with expertise in agile methodologies and data-driven decision making."
-        icon: fas fa-code
+      - title: "Champion customer empathy"
+        desc: "Transform customer feedback and data into strategic insights that drive product decisions and enhance user experiences."
+        icon: fas fa-heart
+      - title: "Bridge technical and creative disciplines"
+        desc: "Collaborate across design, engineering, and product teams to deliver solutions that balance technical feasibility with exceptional user experience."
+        icon: fas fa-handshake
 
   portfolio:
     title: "Projects"
