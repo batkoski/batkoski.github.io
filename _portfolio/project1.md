@@ -1,6 +1,6 @@
 ---
 title: UX Copy Writing Assistant (AI Agent)
-subtitle: Custom AI agent generating publish-ready copy from design screenshots
+# subtitle: Custom AI agent generating publish-ready copy from design screenshots
 image: assets/img/portfolio/01-full.jpg
 alt: UX Copy Writing Assistant
 icon: fas fa-robot
@@ -23,15 +23,15 @@ slideshow:
 **Timeline:** H2 2025  
 **Category:** AI Innovation, Scaling, UX Writing Guidance and Consistency  
 **Challenge:** Designers and product teams needed quick, brand-consistent copy but lacked writing resources.  
-**Solution:** Built custom AI agent using Quick Suite that generates publish-ready copy from design screenshots in seconds.
+**Solution:** Built custom AI agent using Quick Suite that generates publish-ready copy from design screenshots or plain language prompts in seconds.
 
-## My Contributions
+### My Contributions
 - Designed the agent's conversation flow and prompting strategy
 - Trained the agent on Quick Suite brand voice and style guidelines
 - Tested and iterated based on designer feedback
 - Drove adoption across design and product teams
 
-## Impact
+### Impact
 - Reduced copy turnaround time from days to seconds
 - Enabled non-writers to generate brand-consistent copy
 - Demonstrated practical AI application that influenced product roadmap
