@@ -83,6 +83,25 @@ p, div, span, li {
   padding-top: 50px !important;
 }
 
+/* Make skills section columns wider for better title display */
+#services .col-md-4 {
+  flex: 0 0 calc(33.333333% + 50px) !important;
+  max-width: calc(33.333333% + 50px) !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+/* Adjust container to accommodate wider columns */
+#services .container {
+  max-width: 1300px !important;
+}
+
+/* Ensure skills titles don't wrap */
+#services h4 {
+  white-space: nowrap !important;
+  overflow: visible !important;
+}
+
 /* Style slideshow images in modal */
 .portfolio-modal .carousel-item img {
   max-height: 300px !important;
@@ -158,5 +177,57 @@ p, div, span, li {
   background-color: #343a40 !important;
   border-color: #343a40 !important;
   color: white !important;
+}
+
+/* Portfolio grid styling */
+.portfolio-caption {
+  padding: 25px 20px !important;
+  text-align: center !important;
+}
+
+.portfolio-caption h4 {
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+  line-height: 1.3 !important;
+}
+
+.portfolio-caption p {
+  font-size: 0.9rem !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0 !important;
+  color: #6c757d !important;
+}
+
+/* Portfolio item hover effects */
+.portfolio-item {
+  margin-bottom: 30px !important;
+}
+
+.portfolio-link {
+  display: block !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.portfolio-hover {
+  background: rgba(52, 58, 64, 0.9) !important;
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0 !important;
+  transition: all 0.3s ease !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.portfolio-link:hover .portfolio-hover {
+  opacity: 1 !important;
+}
+
+.portfolio-hover-content {
+  color: white !important;
+  text-align: center !important;
 }
 </style>
