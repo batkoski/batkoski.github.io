@@ -15,7 +15,7 @@ slideshow:
     caption: "Style guide excerpts showing voice and tone examples"
   - image: assets/img/portfolio/Quick_Brand_Survey_Results.png
     caption: "Survey methodology and key findings visualization"
-  - image: assets/img/portfolio/Quick_brand_Tone_Examples.png
+  - image: assets/img/portfolio/Quick_Brand_Tone_Examples.png
     caption: "Before/after copy examples showing brand transformation"
 ---
 
