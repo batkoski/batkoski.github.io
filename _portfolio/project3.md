@@ -8,7 +8,7 @@ icon: fas fa-chart-line
 caption:
   title: AI Data Analysis
   subtitle: AI/ML & Customer Insights
-  thumbnail: assets/img/portfolio/03-thumbnail.jpg
+  thumbnail: assets/img/portfolio/customer_tickets.png
 ---
 
 **Role and timeline:** Senior Technical Writer (AWS), H1 2024  

@@ -8,24 +8,16 @@ icon: fas fa-cogs
 caption:
   title: App Studio Docs
   subtitle: Technical Writing & Product Influence
-  thumbnail: assets/img/portfolio/04-thumbnail.jpg
-
-slideshow:
-  - image: assets/img/portfolio/04-full.jpg
-    caption: "Information architecture diagram for builder and admin audiences"
-  - image: assets/img/portfolio/05-full.jpg
-    caption: "How it works documentation with detailed diagrams"
-  - image: assets/img/portfolio/06-full.jpg
-    caption: "Figma designs contributed to improve product UX"
+  thumbnail: assets/img/portfolio/app_studio_logo.jpg
+  
 ---
 
-**Role:** Senior Technical Writer, AWS | **Timeline:** Early 2024 - November 2024
-
-**Challenge:** App Studio—a highly complex, AI-assisted internal application creation platform—needed comprehensive documentation for GA launch.
-
+**Role and timeline:** Senior Technical Writer (AWS), Jan 2024 - Nov 2024  
+**Challenge:** App Studio—a highly complex, AI-assisted internal application creation platform—needed comprehensive documentation for GA launch.  
 **Solution:** Served as sole technical writer, architecting complete builder and administrator documentation from scratch.
+**Docs:** [AWS App Studio User Guide](https://docs.aws.amazon.com/appstudio/latest/userguide/welcome.html)
 
-## My Contributions
+#### My contributions
 - Architected information structure for builder and administrator audiences
 - Created foundational "how it works" documentation with diagrams
 - Developed screenshot walkthroughs for complex configuration workflows
@@ -33,14 +25,9 @@ slideshow:
 - Created UX designs in Figma to improve product experience
 - Delivered complete documentation suite for November 2024 GA launch
 
-## Impact
-- **Enabled successful GA launch with comprehensive documentation**
+#### Impact
+- Enabled successful GA launch with comprehensive documentation
 - Influenced product direction through UX design contributions
 - Created documentation patterns for AI-assisted platforms
 - Supported complex, configurable platform with clear guidance
-
-{:.list-inline}
-- **Role:** Sole Technical Writer
-- **Launch:** November 2024 GA
-- **Category:** Technical Writing & Product Influence
 
