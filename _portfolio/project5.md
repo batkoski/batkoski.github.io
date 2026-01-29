@@ -1,45 +1,33 @@
 ---
-title: CodeCatalyst - 10+ Feature Launches at AWS re:Invent
-subtitle: Large-scale coordination and delivery under pressure
+title: Participating in 50+ UX Fit & Finish Reviews
+subtitle: Enhancing product quality through systematic design collaboration
 image: assets/img/portfolio/05-full.jpg
-alt: CodeCatalyst re:Invent Launches
-icon: fas fa-rocket
+alt: UX Fit and Finish Reviews
+icon: fas fa-search
 
 caption:
-  title: re:Invent Launches
-  subtitle: Scale & Coordination
+  title: UX Fit & Finish Reviews
+  subtitle: Quality & Cross-functional Collaboration
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 
-slideshow:
-  - image: assets/img/portfolio/01-full.jpg
-    caption: "Timeline showing coordination across 10+ features"
-  - image: assets/img/portfolio/02-full.jpg
-    caption: "Documentation examples for different CodeCatalyst features"
-  - image: assets/img/portfolio/03-full.jpg
-    caption: "Presentation to 150+ technical writers on implementation guidance"
 ---
 
-**Role:** Senior Technical Writer, AWS | **Timeline:** November 2023 (re:Invent)
+**Role and timeline:** Senior Technical Writer (AWS), July 2025 - Present  
+**Challenge:** Every product needs consistent quality, clarity, and usability across all features
+**Solution:** Participated in over 50 UX Sign Off and Fit and Finish reviews, providing systematic UX design and copy feedback to enhance product experience
 
-**Challenge:** Coordinate documentation for 10+ CodeCatalyst feature launches at AWS's largest annual conference with tight deadlines.
+#### My contributions
+- Participated in 50+ product reviews across Quick Suite, App Studio, and CodeCatalyst features
+- Provided UX design feedback on layout, information hierarchy, and interaction patterns
+- Delivered copy feedback to enhance clarity and consistency
+- Identified opportunities to reduce cognitive load for users
+- Ensured alignment with brand guidelines across all product touchpoints
+- Collaborated with designers, PMs, and engineers to implement improvements
 
-**Solution:** Orchestrated documentation delivery across multiple teams, ensuring all features had comprehensive documentation for conference launch.
-
-## My Contributions
-- Coordinated with product, engineering, and marketing teams
-- Managed documentation pipeline across 10+ features
-- Ensured consistency and quality across all launches
-- Delivered all documentation on time for conference deadlines
-- Presented implementation guidance to 150+ technical writers
-
-## Impact
-- **Successfully launched 10+ features at AWS's largest conference**
-- Enabled thousands of developers to adopt new CodeCatalyst features
-- Drove organization-wide adoption of new launch processes
-- Demonstrated ability to deliver at scale under pressure
-
-{:.list-inline}
-- **Scale:** 10+ concurrent feature launches
-- **Audience:** 150+ technical writers trained
-- **Category:** Scale & Cross-functional Coordination
+#### Impact
+- Enhanced clarity and consistency across products
+- Reduced cognitive load for users through systematic feedback
+- Influenced product direction through design and copy recommendations
+- Established quality standards for features approaching launch
+- Built strong cross-functional relationships with design and product teams
 
