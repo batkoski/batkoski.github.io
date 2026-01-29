@@ -35,7 +35,7 @@ en: &DEFAULT_EN
       - title: "Champion customer empathy"
         desc: "Transform customer feedback and data into strategic insights that drive product decisions and enhance user experiences."
         icon: fas fa-heart
-      - title: "Bridge technical and creative disciplines"
+      - title: "Bridge technical & creative disciplines"
         desc: "Collaborate across design, engineering, and product teams to deliver solutions that balance technical feasibility with exceptional user experience."
         icon: fas fa-handshake
 
