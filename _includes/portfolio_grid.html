@@ -7,8 +7,10 @@
         <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].portfolio.text | markdownify | strip_html }}</h3>
       </div>
     </div>
+    
+    <!-- First row: 3 projects -->
     <div class="row">
-      {% for project in site.portfolio %}
+      {% for project in site.portfolio limit:3 %}
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="portfolio-hover">
@@ -29,5 +31,33 @@
       </div>
       {% endfor %}
     </div>
+    
+    <!-- Second row: 2 projects centered -->
+    {% assign remaining_projects = site.portfolio | slice: 3, 2 %}
+    {% if remaining_projects.size > 0 %}
+    <div class="row justify-content-center">
+      {% for project in remaining_projects %}
+      {% assign project_index = forloop.index | plus: 3 %}
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#p{{ project_index }}">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              {% if project.icon %}
+              <i class="{{ project.icon }} fa-3x"></i>
+              {% else %}
+              <i class="fas fa-plus fa-3x"></i>
+              {% endif %}
+            </div>
+          </div>
+          <img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="{{ project.alt }}">
+        </a>
+        <div class="portfolio-caption">
+          <h4>{{ project.title }}</h4>
+          <p class="text-muted">{{ project.subtitle }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
 </section>
