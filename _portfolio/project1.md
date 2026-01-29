@@ -24,13 +24,13 @@ slideshow:
 **Challenge:** Designers and product teams needed quick, brand-consistent copy but lacked writing resources.  
 **Solution:** Built custom AI agent using Quick Suite that generates publish-ready copy from design screenshots, text files, or plain language prompts in seconds.
 
-### My contributions
+#### My contributions
 - Designed the agent's conversation flow and prompting strategy
 - Trained the agent on Quick Suite brand, style, and tone guidance
 - Tested and iterated based on designer and PM feedback
 - Drove adoption across design and product teams, resulting in 21 users creating copy from over 200 conversations and 700 messages in 3 months
 
-### Impact
+#### Impact
 - Reduced copy turnaround time from days to seconds
 - Enabled non-writers to generate brand-consistent copy
 - Showcased innovative use of AI for content creation
