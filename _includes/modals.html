@@ -39,7 +39,7 @@
                 {% if project.slideshow.size > 1 %}
                 <!-- Navigation buttons -->
                 <div class="carousel-controls text-center mt-2 mb-4">
-                  <a href="#" class="text-muted mr-3" data-target="#carousel{{ forloop.index }}" data-slide="prev" style="text-decoration: none;">
+                  <a href="#" class="text-muted" data-target="#carousel{{ forloop.index }}" data-slide="prev" style="text-decoration: none; margin-right: 2rem;">
                     <i class="fas fa-chevron-left"></i> Previous
                   </a>
                   <a href="#" class="text-muted" data-target="#carousel{{ forloop.index }}" data-slide="next" style="text-decoration: none;">
@@ -65,43 +65,46 @@
 {% endfor %}
 
 <script>
-// Handle caption switching
+// Handle caption switching - simplified and more reliable
 $(document).ready(function() {
-  // Handle Bootstrap carousel slide events
-  $('.carousel').on('slide.bs.carousel', function (e) {
-    var slideIndex = $(e.relatedTarget).index();
-    var carouselId = $(this).attr('id');
+  // Function to update caption
+  function updateCaption(carouselId, slideIndex) {
+    console.log('Updating caption for carousel:', carouselId, 'slide:', slideIndex);
     
     // Hide all captions for this carousel
-    $('#' + carouselId).find('.caption-text').addClass('d-none');
+    $('#' + carouselId).parent().find('.caption-text').addClass('d-none');
     
     // Show the caption for the active slide
-    $('#' + carouselId).find('.caption-text[data-slide="' + slideIndex + '"]').removeClass('d-none');
-  });
+    $('#' + carouselId).parent().find('.caption-text[data-slide="' + slideIndex + '"]').removeClass('d-none');
+  }
   
   // Handle manual navigation clicks
   $('.carousel-controls a').on('click', function(e) {
     e.preventDefault();
     var target = $(this).data('target');
     var slide = $(this).data('slide');
+    var carousel = $(target);
     
     if (slide === 'prev') {
-      $(target).carousel('prev');
+      carousel.carousel('prev');
     } else if (slide === 'next') {
-      $(target).carousel('next');
+      carousel.carousel('next');
     }
+    
+    // Update caption after a short delay to ensure slide has changed
+    setTimeout(function() {
+      var activeSlide = carousel.find('.carousel-item.active');
+      var slideIndex = activeSlide.index();
+      var carouselId = carousel.attr('id');
+      updateCaption(carouselId, slideIndex);
+    }, 100);
   });
   
-  // Alternative: Handle slid event (after transition completes)
+  // Also handle Bootstrap carousel events as backup
   $('.carousel').on('slid.bs.carousel', function (e) {
     var slideIndex = $(e.relatedTarget).index();
     var carouselId = $(this).attr('id');
-    
-    // Hide all captions for this carousel
-    $('#' + carouselId).find('.caption-text').addClass('d-none');
-    
-    // Show the caption for the active slide
-    $('#' + carouselId).find('.caption-text[data-slide="' + slideIndex + '"]').removeClass('d-none');
+    updateCaption(carouselId, slideIndex);
   });
 });
 </script>

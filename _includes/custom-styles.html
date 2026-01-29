@@ -150,11 +150,18 @@ p, div, span, li {
   position: static !important;
   padding: 0 !important;
   background: none !important;
-  margin-top: 8px !important;
+  margin-top: 2px !important;
 }
 
-/* Style the Visuals header */
-.portfolio-modal .modal-body h4:last-of-type {
+/* Remove any extra spacing from caption paragraphs */
+.carousel-caption-below .caption-text {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Style all h4 headers in modals consistently */
+.portfolio-modal .modal-body h4 {
   font-size: 1.25rem !important;
   margin-top: 2rem !important;
   margin-bottom: 1rem !important;
