@@ -28,10 +28,10 @@
             {% endif %}
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>{{ event.year }}</h4>
                 <h4 class="subheading">{{ event.title }}</h4>
+                <h4 class="timeline-date">{{ event.year }}</h4>
                 {% if event.company %}
-                <h5 class="company-name" style="color: #6c757d; font-size: 0.9em; margin-top: 5px;">{{ event.company }}</h5>
+                <h5 class="company-name">{{ event.company }}</h5>
                 {% endif %}
               </div>
               <div class="timeline-body">
