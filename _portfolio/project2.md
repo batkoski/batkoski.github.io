@@ -20,7 +20,7 @@ slideshow:
 ---
 
 **Role and timeline:** Senior UX Writer (AWS), July 2025 - October 2025  
-**Challenge:** Quick Suite needed distinctive brand voice to differentiate from standard AWS patterns for October 2025 launch.  
+**Challenge:** Quick Suite needed distinctive brand voice to differentiate from standard AWS patterns for October 2025 launch and beyond.
 **Solution:** Created comprehensive copy guidance through rapid ramp-up, user research, and cross-functional collaboration.  
 
 ## My contributions
