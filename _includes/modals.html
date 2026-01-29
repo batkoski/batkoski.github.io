@@ -20,31 +20,26 @@
               <!-- Visuals section -->
               <h4>Visuals</h4>
               <div id="carousel{{ forloop.index }}" class="carousel slide mt-3" data-interval="false">
+                <!-- Slides -->
                 <div class="carousel-inner">
                   {% for slide in project.slideshow %}
                   <div class="carousel-item {% if forloop.first %}active{% endif %}">
                     <img class="d-block w-100" src="{{ slide.image }}" alt="{{ slide.caption }}" style="max-height: 400px; object-fit: contain;">
+                    <div class="carousel-caption d-block position-static text-center" style="background: none; color: #6c757d; padding: 5px 0 0 0;">
+                      <p style="font-style: italic; margin: 0;">{{ slide.caption }}</p>
+                    </div>
                   </div>
                   {% endfor %}
                 </div>
                 
-                <!-- Caption below image -->
-                <div class="carousel-caption-below text-center" style="margin-top: -10px;">
-                  {% for slide in project.slideshow %}
-                  <p class="caption-text {% unless forloop.first %}d-none{% endunless %}" data-slide="{{ forloop.index0 }}" style="font-style: italic; color: #6c757d; margin-bottom: 0; margin-top: 0; padding-top: 0;">{{ slide.caption }}</p>
-                  {% endfor %}
-                </div>
-                
                 {% if project.slideshow.size > 1 %}
-                <!-- Navigation buttons -->
-                <div class="carousel-controls text-center mt-2 mb-4">
-                  <a href="#" class="text-muted mr-3" data-target="#carousel{{ forloop.index }}" data-slide="prev" style="text-decoration: none;">
-                    <i class="fas fa-chevron-left"></i> Previous
-                  </a>
-                  <a href="#" class="text-muted" data-target="#carousel{{ forloop.index }}" data-slide="next" style="text-decoration: none;">
-                    Next <i class="fas fa-chevron-right"></i>
-                  </a>
-                </div>
+                <!-- Navigation -->
+                <a class="carousel-control-prev" href="#carousel{{ forloop.index }}" role="button" data-slide="prev" style="width: 5%; color: #6c757d;">
+                  <span style="font-size: 1rem;"><i class="fas fa-chevron-left"></i> Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel{{ forloop.index }}" role="button" data-slide="next" style="width: 5%; color: #6c757d;">
+                  <span style="font-size: 1rem;">Next <i class="fas fa-chevron-right"></i></span>
+                </a>
                 {% endif %}
               </div>
               {% endif %}
@@ -62,34 +57,3 @@
   </div>
 </div>
 {% endfor %}
-
-<script>
-$(document).ready(function() {
-  // Handle navigation button clicks
-  $('.carousel-controls a').click(function(e) {
-    e.preventDefault();
-    
-    var carouselId = $(this).data('target');
-    var direction = $(this).data('slide');
-    var carousel = $(carouselId);
-    
-    // Move the carousel
-    if (direction === 'prev') {
-      carousel.carousel('prev');
-    } else {
-      carousel.carousel('next');
-    }
-    
-    // Wait for transition and update caption
-    setTimeout(function() {
-      var activeIndex = carousel.find('.carousel-item.active').index();
-      
-      // Hide all captions in this modal
-      carousel.closest('.modal').find('.caption-text').hide();
-      
-      // Show the correct caption
-      carousel.closest('.modal').find('.caption-text').eq(activeIndex).show();
-    }, 150);
-  });
-});
-</script>
