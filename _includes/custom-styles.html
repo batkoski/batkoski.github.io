@@ -205,10 +205,23 @@ a:hover {
 .btn,
 .portfolio-link,
 .social-buttons a,
+.list-inline-item a,
 .carousel-control-prev,
 .carousel-control-next {
   text-decoration: none !important;
   font-weight: inherit !important;
+  color: inherit !important;
+}
+
+/* Keep social media icons white */
+.social-buttons a,
+.list-inline-item a {
+  color: white !important;
+}
+
+.social-buttons a:hover,
+.list-inline-item a:hover {
+  color: #f8f9fa !important;
 }
 
 /* Specific styling for content links in modals and text */
@@ -218,6 +231,15 @@ li a {
   color: #395366 !important;
   text-decoration: underline !important;
   font-weight: 500 !important;
+}
+
+/* But exclude social buttons even in those contexts */
+.modal-body .social-buttons a,
+p .social-buttons a,
+li .social-buttons a {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: inherit !important;
 }
 
 /* Style slideshow images in modal */
