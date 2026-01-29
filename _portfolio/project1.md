@@ -1,6 +1,6 @@
 ---
 title: UX Copy Writing Assistant (AI Agent)
-# subtitle: Custom AI agent generating publish-ready copy from design screenshots
+subtitle: Custom AI agent generating publish-ready copy from design screenshots
 image: assets/img/portfolio/01-full.jpg
 alt: UX Copy Writing Assistant
 icon: fas fa-robot
@@ -34,4 +34,4 @@ slideshow:
 - Reduced copy turnaround time from days to seconds
 - Enabled non-writers to generate brand-consistent copy
 - Showcased innovative use of AI for content creation
-- Creates and updates Asana tickets for automated work tracking
+- Created and updated Asana tickets for automated work tracking
