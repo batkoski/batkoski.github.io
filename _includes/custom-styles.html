@@ -187,6 +187,39 @@ h4, h5, h6, .subheading {
   color: #6c757d !important;
 }
 
+/* Make links more visible and obvious */
+a {
+  color: #395366 !important;
+  text-decoration: underline !important;
+  font-weight: 500 !important;
+  transition: all 0.3s ease !important;
+}
+
+a:hover {
+  color: #2c3e50 !important;
+  text-decoration: underline !important;
+}
+
+/* Exception for navigation and buttons - keep them clean */
+.navbar-nav a,
+.btn,
+.portfolio-link,
+.social-buttons a,
+.carousel-control-prev,
+.carousel-control-next {
+  text-decoration: none !important;
+  font-weight: inherit !important;
+}
+
+/* Specific styling for content links in modals and text */
+.modal-body a,
+p a,
+li a {
+  color: #395366 !important;
+  text-decoration: underline !important;
+  font-weight: 500 !important;
+}
+
 /* Style slideshow images in modal */
 .portfolio-modal .carousel-item img {
   max-height: 400px !important;
