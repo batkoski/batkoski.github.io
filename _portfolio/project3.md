@@ -11,7 +11,7 @@ caption:
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
 
-**Role and timeline:** Senior Technical Writer (AWS), H1 2024. 
+**Role and timeline:** Senior Technical Writer (AWS), H1 2024  
 **Challenge:** There were over 1,500 customer tickets in the QuickSight documentation backlog and unclear priorities before Quick Suite transition.  
 **Solution:** Leveraged Amazon Bedrock and docs data to organize, analyze, and prioritize tickets, transforming them into actionable documentation improvements.
 
