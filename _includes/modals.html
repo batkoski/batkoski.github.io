@@ -30,16 +30,16 @@
                 </div>
                 
                 <!-- Caption below image -->
-                <div class="carousel-caption-below text-center">
+                <div class="carousel-caption-below text-center" style="margin-top: -10px;">
                   {% for slide in project.slideshow %}
-                  <p class="caption-text {% unless forloop.first %}d-none{% endunless %}" data-slide="{{ forloop.index0 }}" style="font-style: italic; color: #6c757d; margin-bottom: 0;">{{ slide.caption }}</p>
+                  <p class="caption-text {% unless forloop.first %}d-none{% endunless %}" data-slide="{{ forloop.index0 }}" style="font-style: italic; color: #6c757d; margin-bottom: 0; margin-top: 0; padding-top: 0;">{{ slide.caption }}</p>
                   {% endfor %}
                 </div>
                 
                 {% if project.slideshow.size > 1 %}
                 <!-- Navigation buttons -->
                 <div class="carousel-controls text-center mt-2 mb-4">
-                  <a href="#" class="text-muted" data-target="#carousel{{ forloop.index }}" data-slide="prev" style="text-decoration: none; margin-right: 2rem;">
+                  <a href="#" class="text-muted mr-3" data-target="#carousel{{ forloop.index }}" data-slide="prev" style="text-decoration: none;">
                     <i class="fas fa-chevron-left"></i> Previous
                   </a>
                   <a href="#" class="text-muted" data-target="#carousel{{ forloop.index }}" data-slide="next" style="text-decoration: none;">
@@ -65,46 +65,32 @@
 {% endfor %}
 
 <script>
-// Handle caption switching - simplified and more reliable
 $(document).ready(function() {
-  // Function to update caption
-  function updateCaption(carouselId, slideIndex) {
-    console.log('Updating caption for carousel:', carouselId, 'slide:', slideIndex);
-    
-    // Hide all captions for this carousel
-    $('#' + carouselId).parent().find('.caption-text').addClass('d-none');
-    
-    // Show the caption for the active slide
-    $('#' + carouselId).parent().find('.caption-text[data-slide="' + slideIndex + '"]').removeClass('d-none');
-  }
-  
-  // Handle manual navigation clicks
-  $('.carousel-controls a').on('click', function(e) {
+  // Handle navigation button clicks
+  $('.carousel-controls a').click(function(e) {
     e.preventDefault();
-    var target = $(this).data('target');
-    var slide = $(this).data('slide');
-    var carousel = $(target);
     
-    if (slide === 'prev') {
+    var carouselId = $(this).data('target');
+    var direction = $(this).data('slide');
+    var carousel = $(carouselId);
+    
+    // Move the carousel
+    if (direction === 'prev') {
       carousel.carousel('prev');
-    } else if (slide === 'next') {
+    } else {
       carousel.carousel('next');
     }
     
-    // Update caption after a short delay to ensure slide has changed
+    // Wait for transition and update caption
     setTimeout(function() {
-      var activeSlide = carousel.find('.carousel-item.active');
-      var slideIndex = activeSlide.index();
-      var carouselId = carousel.attr('id');
-      updateCaption(carouselId, slideIndex);
-    }, 100);
-  });
-  
-  // Also handle Bootstrap carousel events as backup
-  $('.carousel').on('slid.bs.carousel', function (e) {
-    var slideIndex = $(e.relatedTarget).index();
-    var carouselId = $(this).attr('id');
-    updateCaption(carouselId, slideIndex);
+      var activeIndex = carousel.find('.carousel-item.active').index();
+      
+      // Hide all captions in this modal
+      carousel.closest('.modal').find('.caption-text').hide();
+      
+      // Show the correct caption
+      carousel.closest('.modal').find('.caption-text').eq(activeIndex).show();
+    }, 150);
   });
 });
 </script>
