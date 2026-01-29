@@ -9,37 +9,28 @@ caption:
   title: AI Data Analysis
   subtitle: AI/ML & Customer Insights
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
-
-slideshow:
-  - image: assets/img/portfolio/01-full.jpg
-    caption: "Data visualization of ticket categories and priorities"
-  - image: assets/img/portfolio/02-full.jpg
-    caption: "Process diagram showing AI-powered workflow"
-  - image: assets/img/portfolio/03-full.jpg
-    caption: "Documentation improvements driven by ticket analysis"
 ---
 
-**Role:** Senior Technical Writer, AWS | **Timeline:** Early 2024
+**Role and timeline:** Senior Technical Writer (AWS), H1 2024. 
+**Challenge:** There were over 1,500 customer tickets in the QuickSight documentation backlog and unclear priorities before Quick Suite transition.  
+**Solution:** Leveraged Amazon Bedrock and docs data to organize, analyze, and prioritize tickets, transforming them into actionable documentation improvements.
 
-**Challenge:** 1,500+ QuickSight customer tickets created documentation backlog and unclear priorities before Quick Suite transition.
-
-**Solution:** Leveraged Amazon Bedrock to organize, analyze, and prioritize tickets, transforming them into actionable documentation improvements.
-
-## My Contributions
+#### My contributions
 - Collaborated with support teams to access and structure ticket data
 - Designed Bedrock prompts to categorize and prioritize tickets
 - Analyzed patterns to identify high-impact documentation gaps
 - Cleaned up code repositories and documentation backlogs
 - Transformed insights into Quick Suite documentation strategy
 
-## Impact
-- **Organized 1,500+ tickets into actionable priorities**
+#### Impact
+- Organized 1,500+ tickets into actionable priorities
 - Identified critical documentation gaps before product transition
 - Informed Quick Suite documentation roadmap
 - Reduced technical debt and improved documentation quality
 
-{:.list-inline}
-- **Scale:** 1,500+ customer tickets analyzed
-- **Technologies:** Amazon Bedrock, Data Analysis
-- **Category:** AI/ML & Customer Insights
-
+#### Process
+1. Pulled documentation data to gain insights into both topic traffic and performance
+2. Used standard deviations to create a page view cutoff to deprioritize tickets from low-traffic topics
+3. Provided Bedrock with data to delete duplicate tickets and tickets that fell below the traffic cutoff
+4. Used Bedrock to summarize documentation ticket content and ticket counter, organized by topic
+5. Instructed Bedrock to create new category tickets with content summaries based on page views and performance
