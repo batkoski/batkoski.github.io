@@ -8,38 +8,30 @@ icon: fas fa-pen-fancy
 caption:
   title: Brand Voice Development
   subtitle: UX Writing & Strategy
-  thumbnail: assets/img/portfolio/02-thumbnail.jpg
+  thumbnail: assets/img/portfolio/Quick_Brand_Voice_Hero.png
 
 slideshow:
-  - image: assets/img/portfolio/04-full.jpg
+  - image: assets/img/portfolio/Quick_Brand_Voice_Hero.png
     caption: "Style guide excerpts showing voice and tone examples"
-  - image: assets/img/portfolio/05-full.jpg
+  - image: assets/img/portfolio/Quick_Brand_Survey_Results.png
     caption: "Survey methodology and key findings visualization"
-  - image: assets/img/portfolio/06-full.jpg
+  - image: assets/img/portfolio/Quick_brand_Tone_Examples.png
     caption: "Before/after copy examples showing brand transformation"
 ---
 
-**Role:** Senior UX Writer, AWS | **Timeline:** July 2025 - October 2025
+**Role and timeline:** Senior UX Writer (AWS), July 2025 - October 2025  
+**Challenge:** Quick Suite needed distinctive brand voice to differentiate from standard AWS patterns for October 2025 launch.  
+**Solution:** Created comprehensive copy guidance through rapid ramp-up, user research, and cross-functional collaboration.  
 
-**Challenge:** Quick Suite needed distinctive brand voice to differentiate from standard AWS patterns for October 2025 launch.
-
-**Solution:** Created comprehensive copy guidance through rapid ramp-up, user research, and cross-functional collaboration.
-
-## My Contributions
+## My contributions
 - Rapidly created initial copy guidance based on AWS Style Guidelines
 - Orchestrated personality survey with leadership and users
 - Analyzed survey results to define distinctive brand voice and tone
 - Transformed findings into comprehensive style guide
-- Participated in 50+ Fit and Finish reviews to ensure consistency
 
 ## Impact
-- **Established consistent voice across entire Quick Suite platform**
+- Established consistent voice across entire Quick Suite platform
 - Created distinctive brand that differentiates from AWS patterns
 - Enabled design and product teams to maintain consistency
 - Reduced cognitive load for users through clear, consistent copy
-
-{:.list-inline}
-- **Timeline:** 3 months (July-October 2025)
-- **Reviews:** 50+ Fit and Finish sessions
-- **Category:** UX Writing & Brand Strategy
 
