@@ -187,15 +187,21 @@ h4, h5, h6, .subheading {
   color: #6c757d !important;
 }
 
-/* Make links more visible and obvious */
-a {
+/* Make links more visible and obvious - but only content links */
+p a,
+li a,
+.modal-body p a,
+.modal-body li a {
   color: #395366 !important;
   text-decoration: underline !important;
   font-weight: 500 !important;
   transition: all 0.3s ease !important;
 }
 
-a:hover {
+p a:hover,
+li a:hover,
+.modal-body p a:hover,
+.modal-body li a:hover {
   color: #2c3e50 !important;
   text-decoration: underline !important;
 }
@@ -208,7 +214,10 @@ a:hover {
 .social-buttons a,
 .list-inline-item a,
 .carousel-control-prev,
-.carousel-control-next {
+.carousel-control-next,
+.close-modal,
+.modal .btn,
+.modal-header .close {
   text-decoration: none !important;
   font-weight: inherit !important;
   color: inherit !important;
@@ -223,15 +232,6 @@ a:hover {
 .social-buttons a:hover,
 .list-inline-item a:hover {
   color: #f8f9fa !important;
-}
-
-/* Specific styling for content links in modals and text */
-.modal-body a,
-p a,
-li a {
-  color: #395366 !important;
-  text-decoration: underline !important;
-  font-weight: 500 !important;
 }
 
 /* But exclude social buttons even in those contexts */

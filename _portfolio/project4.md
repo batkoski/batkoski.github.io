@@ -8,7 +8,7 @@ icon: fas fa-cogs
 caption:
   title: App Studio Docs
   subtitle: Technical Writing & Product Influence
-  thumbnail: assets/img/portfolio/App_Studio_Logo.jpg
+  thumbnail: assets/img/portfolio/appstudio_thumbnail.png
   
 ---
 

@@ -8,7 +8,7 @@ icon: fas fa-robot
 caption:
   title: AI Copy Assistant
   subtitle: AI Innovation & UX Writing
-  thumbnail: assets/img/portfolio/Quick_UX_Copy_Hero.png
+  thumbnail: assets/img/portfolio/quick_agent_thumbnail.png
 
 slideshow:
   - image: assets/img/portfolio/Quick_UX_Copy_Hero.png

@@ -8,7 +8,7 @@ icon: fas fa-pen-fancy
 caption:
   title: Brand Voice Development
   subtitle: UX Writing & Strategy
-  thumbnail: assets/img/portfolio/Quick_Brand_Voice_Hero.png
+  thumbnail: assets/img/portfolio/quick_voice_tone_thumbnail.png
 
 slideshow:
   - image: assets/img/portfolio/Quick_Brand_Voice_Hero.png

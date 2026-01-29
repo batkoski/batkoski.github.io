@@ -8,7 +8,7 @@ icon: fas fa-search
 caption:
   title: UX Fit & Finish Reviews
   subtitle: Quality & Cross-functional Collaboration
-  thumbnail: assets/img/portfolio/05-thumbnail.jpg
+  thumbnail: assets/img/portfolio/fit_and_finish_thumbnail.jpg
 
 ---
 
