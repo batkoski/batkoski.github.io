@@ -25,8 +25,8 @@
                   {% for slide in project.slideshow %}
                   <div class="carousel-item {% if forloop.first %}active{% endif %}">
                     <img class="d-block w-100" src="{{ slide.image }}" alt="{{ slide.caption }}" style="max-height: 400px; object-fit: contain;">
-                    <div class="carousel-caption d-block position-static text-center" style="background: none; color: #6c757d; padding: 5px 0 0 0;">
-                      <p style="font-style: italic; margin: 0;">{{ slide.caption }}</p>
+                    <div class="carousel-caption d-block position-static text-center" style="background: none; color: #6c757d; padding: 0;">
+                      <p style="font-style: italic; margin: 0; margin-top: -5px;">{{ slide.caption }}</p>
                     </div>
                   </div>
                   {% endfor %}
@@ -35,10 +35,10 @@
                 {% if project.slideshow.size > 1 %}
                 <!-- Navigation -->
                 <a class="carousel-control-prev" href="#carousel{{ forloop.index }}" role="button" data-slide="prev" style="width: 5%; color: #6c757d;">
-                  <span style="font-size: 1rem;"><i class="fas fa-chevron-left"></i> Previous</span>
+                  <span style="font-size: 1.5rem;"><i class="fas fa-chevron-left"></i></span>
                 </a>
                 <a class="carousel-control-next" href="#carousel{{ forloop.index }}" role="button" data-slide="next" style="width: 5%; color: #6c757d;">
-                  <span style="font-size: 1rem;">Next <i class="fas fa-chevron-right"></i></span>
+                  <span style="font-size: 1.5rem;"><i class="fas fa-chevron-right"></i></span>
                 </a>
                 {% endif %}
               </div>
