@@ -24,13 +24,13 @@
                 <div class="carousel-inner">
                   {% for slide in project.slideshow %}
                   <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                    <img class="d-block w-100" src="{{ slide.image }}" alt="{{ slide.caption }}" style="max-height: 300px; object-fit: contain;">
+                    <img class="d-block w-100" src="{{ slide.image }}" alt="{{ slide.caption }}" style="max-height: 400px; object-fit: contain;">
                   </div>
                   {% endfor %}
                 </div>
                 
                 <!-- Caption below image -->
-                <div class="carousel-caption-below mt-2 text-center">
+                <div class="carousel-caption-below text-center">
                   {% for slide in project.slideshow %}
                   <p class="caption-text {% unless forloop.first %}d-none{% endunless %}" data-slide="{{ forloop.index0 }}" style="font-style: italic; color: #6c757d; margin-bottom: 0;">{{ slide.caption }}</p>
                   {% endfor %}
@@ -67,7 +67,33 @@
 <script>
 // Handle caption switching
 $(document).ready(function() {
+  // Handle Bootstrap carousel slide events
   $('.carousel').on('slide.bs.carousel', function (e) {
+    var slideIndex = $(e.relatedTarget).index();
+    var carouselId = $(this).attr('id');
+    
+    // Hide all captions for this carousel
+    $('#' + carouselId).find('.caption-text').addClass('d-none');
+    
+    // Show the caption for the active slide
+    $('#' + carouselId).find('.caption-text[data-slide="' + slideIndex + '"]').removeClass('d-none');
+  });
+  
+  // Handle manual navigation clicks
+  $('.carousel-controls a').on('click', function(e) {
+    e.preventDefault();
+    var target = $(this).data('target');
+    var slide = $(this).data('slide');
+    
+    if (slide === 'prev') {
+      $(target).carousel('prev');
+    } else if (slide === 'next') {
+      $(target).carousel('next');
+    }
+  });
+  
+  // Alternative: Handle slid event (after transition completes)
+  $('.carousel').on('slid.bs.carousel', function (e) {
     var slideIndex = $(e.relatedTarget).index();
     var carouselId = $(this).attr('id');
     
