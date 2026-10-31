@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<article class="case">
+  <header class="case__head wrap">
+    <a class="case__back" href="{{ '/#work' | relative_url }}">← All work</a>
+    <div class="case__intro">
+      <div>
+        <h1 class="case__title reveal">{{ page.title }}</h1>
+        <p class="case__summary reveal">{{ page.summary }}</p>
+      </div>
+      <dl class="case__meta reveal">
+        <div><dt>Role</dt><dd>{{ page.role }}</dd></div>
+        <div><dt>Year</dt><dd>{{ page.year }}</dd></div>
+        {%- if page.team -%}<div><dt>Team</dt><dd>{{ page.team }}</dd></div>{%- endif -%}
+        {%- if page.tools -%}<div><dt>Tools</dt><dd>{{ page.tools }}</dd></div>{%- endif -%}
+      </dl>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="frame frame--hero reveal"><div class="ph" data-tone="{{ page.tone }}"><span>Image or short video placeholder</span></div></div>
+  </div>
+
+
+  <div class="case__layout wrap">
+    <nav class="case__toc" aria-label="On this page"></nav>
+    <div class="case__body prose">
+      {{ content }}
+    </div>
+  </div>
+
+  {%- assign work = site.work | sort: 'order' -%}
+  {%- for item in work -%}
+    {%- if item.url == page.url -%}
+      {%- assign next_index = forloop.index | modulo: work.size -%}
+      {%- assign next = work[next_index] -%}
+    {%- endif -%}
+  {%- endfor -%}
+  <nav class="case__next wrap" aria-label="Next case study">
+    <a href="{{ next.url | relative_url }}">
+      <span class="eyebrow">Next</span>
+      <span class="case__next-title">{{ next.title }}<span aria-hidden="true"> →</span></span>
+    </a>
+  </nav>
+</article>

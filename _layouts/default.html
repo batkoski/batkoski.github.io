@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- assign page_title = page.title | default: site.tagline -%}
+  <title>{{ page_title }} · {{ site.title }}</title>
+  <meta name="description" content="{{ page.summary | default: site.description | strip_html | strip }}">
+  <meta property="og:title" content="{{ page_title }} · {{ site.title }}">
+  <meta property="og:description" content="{{ page.summary | default: site.description | strip_html | strip }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="stylesheet" href="https://use.typekit.net/ksy7dgy.css">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</head>
+<body class="{{ page.body_class }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include nav.html %}
+  <main id="main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
+</html>

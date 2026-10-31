@@ -1,0 +1,10 @@
+- title: AWS App Studio documentation
+  note: Sole writer for the builder and admin guides at GA.
+  year: 2024
+  url: https://docs.aws.amazon.com/appstudio/latest/userguide/welcome.html
+- title: Sorting 1,500 customer tickets with Amazon Bedrock
+  note: Used traffic data and an LLM to turn a backlog into a roadmap.
+  year: 2024
+- title: Fit & Finish reviews
+  note: Design and copy feedback across 50+ pre-launch reviews.
+  year: 2025

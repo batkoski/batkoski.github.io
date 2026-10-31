@@ -1,13 +1,135 @@
 ---
 layout: default
 ---
-{% include custom-styles.html %}
-{% include navheader.html %}
+<section class="hero wrap">
+  <p class="eyebrow reveal">Product Designer · Amazon Quick</p>
+  <h1 class="hero__title reveal">
+    Product designer who <span class="mark" data-fx="type">writes</span> the words and <span class="mark" data-fx="build">builds</span> the thing.
+  </h1>
+  <div class="hero__intro reveal">
+    <p>I'm a product designer at Amazon Quick. Before this I spent about ten years as a technical writer and UX writer at AWS and Microsoft, and before that I wrote code at IBM.</p>
+    <p>That path shows up in how I work. I start by writing out who's there and what they're trying to get done. I care a lot about what things are called. And when a design is ready, I'll usually build it myself.</p>
+  </div>
+</section>
 
-{% include services.html %}
-{% include portfolio_grid.html %}
-{% include timeline.html %}
+<section class="section wrap" id="work">
+  <div class="section__head reveal">
+    <p class="eyebrow">Selected work</p>
+  </div>
+  <ol class="work-list">
+    {%- assign work = site.work | sort: 'order' -%}
+    {%- for item in work -%}
+    <li class="work-row reveal">
+      <a class="work-row__link" href="{{ item.url | relative_url }}">
+        <span class="work-row__num">{{ forloop.index | prepend: '0' }}</span>
+        <span class="work-row__body">
+          <span class="work-row__title">{{ item.title }}</span>
+          <span class="work-row__summary">{{ item.summary }}</span>
+          <span class="work-row__more"><span>
+            <span class="work-row__role">{{ item.role }}</span>
+            <span class="work-row__cta">Read the case study <span aria-hidden="true">→</span></span>
+          </span></span>
+        </span>
+        <span class="work-row__meta">{{ item.year }}<span class="work-row__arrow" aria-hidden="true">→</span></span>
+        <span class="work-row__media" aria-hidden="true"><span>
+          <span class="ph" data-tone="{{ item.tone }}"><span>Image placeholder</span></span>
+        </span></span>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ol>
+</section>
 
-<!-- About, team, and contact sections removed -->
+<section class="section wrap approach" id="approach">
+  <div class="section__head reveal">
+    <p class="eyebrow">Approach</p>
+    <h2 class="section__title">Words first. Then pixels. Then code.</h2>
+  </div>
+  <div class="approach__grid">
+    <ol class="principles" id="principles">
+      <li class="reveal">
+        <h3>Start with the job</h3>
+        <p>Before I open Figma, I write out who's there, what they're trying to get done, and what they already know. Most design problems get smaller once that's written down.</p>
+      </li>
+      <li class="reveal">
+        <h3>Name things plainly</h3>
+        <p>If people wouldn't say it out loud, it shouldn't be in the UI. I'd rather call it Files than make up a new word for files.</p>
+      </li>
+      <li class="reveal">
+        <h3>Build it to find out</h3>
+        <p>When I can build it myself, I do. A working page settles questions a mockup can't, and it usually gets there faster.</p>
+      </li>
+    </ol>
 
-{% include modals.html %}
+    <figure class="chat reveal" aria-label="A typical request, start to finish">
+      <div class="chat__bar">
+        <span class="chat__channel"># design-requests</span>
+        <button type="button" class="chat__replay" hidden>Replay</button>
+      </div>
+      <ol class="chat__log" aria-live="polite">
+        <li class="msg" data-who="pm"><span class="msg__name">Sam · PM</span><p>hey! can you design the UX for team invites? need it asap 🙏 thanks</p></li>
+        <li class="msg" data-who="me" data-principle="0"><span class="msg__name">Elijah</span><p>yep, on it. couple questions first: who sends invites, admins or anyone? and what happens today when someone gets one?</p></li>
+        <li class="msg" data-who="pm"><span class="msg__name">Sam · PM</span><p>anyone on a team plan. today it's just an email with a link lol</p></li>
+        <li class="msg" data-who="me" data-principle="0"><span class="msg__name">Elijah</span><p>gotcha. I think the job isn't “send an invite,” it's “get my teammate working with me.” so I'd measure time to first shared chat, not invites sent.</p></li>
+        <li class="msg" data-who="me" data-principle="1"><span class="msg__name">Elijah</span><p>wrote up the flow first:</p>
+          <div class="card card--flow">
+            <span class="card__label">Flow · draft 1</span>
+            <ol><li>Add a teammate by email</li><li>They land in your shared space, already signed in</li><li>A first prompt suggests something to do together</li></ol>
+          </div>
+        </li>
+        <li class="msg" data-who="me" data-principle="1"><span class="msg__name">Elijah</span><p>and a Figma pass. 3 screens, reuses the modal we already have</p>
+          <div class="card card--frames" aria-hidden="true"><span></span><span></span><span></span></div>
+        </li>
+        <li class="msg" data-who="pm"><span class="msg__name">Sam · PM</span><p>love it. eng is slammed this sprint though 😬</p></li>
+        <li class="msg" data-who="me" data-principle="2"><span class="msg__name">Elijah</span><p>no worries, I can build it. putting up a CR today</p>
+          <div class="card card--term">
+            <code><span class="p">$</span> git commit -m "Team invite flow"</code>
+            <code><span class="ok">✓</span> build passed</code>
+            <code><span class="ok">✓</span> 2 approvals · merged</code>
+          </div>
+        </li>
+        <li class="msg" data-who="me" data-principle="2"><span class="msg__name">Elijah</span><p>shipped 🚢 it's live behind the flag</p></li>
+        <li class="msg" data-who="pm"><span class="msg__name">Sam · PM</span><p>wait, already?? 🎉</p></li>
+      </ol>
+      <div class="chat__typing" aria-hidden="true"><span></span><span></span><span></span></div>
+      <figcaption>How a request usually goes. The feature and names are made up.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section wrap" id="more">
+  <div class="section__head reveal">
+    <p class="eyebrow">More work</p>
+  </div>
+  <ul class="more-list">
+    {%- for item in site.data.more_work -%}
+    <li class="reveal">
+      {%- if item.url -%}<a href="{{ item.url }}">{{ item.title }}<span aria-hidden="true"> ↗</span></a>{%- else -%}<span class="more-list__title">{{ item.title }}</span>{%- endif -%}
+      <span class="more-list__note">{{ item.note }}</span>
+      <span class="more-list__year">{{ item.year }}</span>
+    </li>
+    {%- endfor -%}
+  </ul>
+</section>
+
+<section class="section wrap split" id="experience">
+  <div class="split__col">
+    <div class="section__head reveal">
+      <p class="eyebrow">Experience</p>
+    </div>
+    <ul class="exp-list">
+      {%- for job in site.data.experience -%}
+      <li class="reveal">
+        <span class="exp-list__years">{{ job.years }}</span>
+        <span class="exp-list__role">{{ job.role }}</span>
+        <span class="exp-list__company">{{ job.company }}</span>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  <div class="split__col about reveal">
+    <p class="eyebrow">Off the clock</p>
+    <img class="about__photo" src="{{ '/assets/img/elijah_headshot.png' | relative_url }}" alt="Elijah Batkoski" width="160" height="160">
+    <p>Dad of two boys, which is a daily lesson in curiosity and in explaining things simply. Lifelong video game and trading card game player, which taught me a lot about how a few words of rules text can shape how people play. Otherwise I'm lifting, or cooking something that may or may not work.</p>
+  </div>
+</section>
